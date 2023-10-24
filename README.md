@@ -1,11 +1,20 @@
-# Fresh project
+# Fresh project - Aretekoučka.cz
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+### Resources
+
+- Fresh [Getting Started](https://fresh.deno.dev/docs/getting-started) guide
+- Showcase [Hi, I'm Guillaume](https://guillaumecomte.deno.dev/) on [GitHub](https://github.com/guigui64/www/)
+- [1001 free fonts](https://www.1001freefonts.com/): Montserattu
+
+### Webs
+
+- [sivena.cz](https://sivena.cz/)
+- [houdkova-profikouc.cz](https://houdkova-profikouc.cz/)
+- [Koucka.cz](https://www.koucka.cz)
 
 ### Usage
 
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
+Make sure to [install Deno](https://deno.land/manual/getting_started/installation)
 
 Then start the project:
 
