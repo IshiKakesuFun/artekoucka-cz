@@ -1,9 +1,10 @@
 # Fresh project - Aretekoučka.cz
 
-### Resources
+## Resources
 
 - Fresh [Getting Started](https://fresh.deno.dev/docs/getting-started) guide
-- Showcase [Hi, I'm Guillaume](https://guillaumecomte.deno.dev/) on [GitHub](https://github.com/guigui64/www/)
+- Showcase [Hi, I'm Guillaume](https://guillaumecomte.deno.dev/) on
+  [GitHub](https://github.com/guigui64/www/)
 - [1001 free fonts](https://www.1001freefonts.com/): Montserattu
 
 ### Webs
@@ -12,13 +13,14 @@
 - [houdkova-profikouc.cz](https://houdkova-profikouc.cz/)
 - [Koucka.cz](https://www.koucka.cz)
 
-### Usage
+## Usage
 
-Make sure to [install Deno](https://deno.land/manual/getting_started/installation)
+Make sure to
+[install Deno](https://deno.land/manual/getting_started/installation)
 
 Then start the project:
 
-```
+```shell
 deno task start
 ```
 

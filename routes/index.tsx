@@ -86,7 +86,6 @@ export default function Home() {
           <footer>- Ing. Monika Ulčová,</footer>
           <cite>pedagog</cite>
         </blockquote>
-        
       </div>
     </div>
   );
