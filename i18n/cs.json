@@ -1,3 +1,27 @@
 {
-  "title": "Artekoučka"
+  "title": "Artekoučka",
+  "meta": {
+    "description": "Artekoučka Mgr. Marta Sojková, MBA - portfólio"
+  },
+  "nav": {
+    "aboutme": {
+      "title": "O mně"
+    },
+    "contact": {
+      "title": "Kontakt"
+    },
+    "recommendations": {
+      "title": "Reference"
+    }
+  },
+  "hero": {
+    "motto": "Jsem profesionální koučka, která je přesvědčena, že barvy odemykají potenciál.",
+    "description": "V inspirativním ateliéru ve Vochově u Plzně umožňuji jednotlivcům i týmům přicházet na zcela nečekané způsoby, jak dosahovat svých cílů nejen v osobní, ale i profesní sféře."
+  },
+  "footer": {
+    "copyright": {
+      "owner": "Mgr. Marta Sojková, MBA",
+      "rights": "Všechna práva vyhrazena."
+    }
+  }
 }
