@@ -18,16 +18,16 @@ export async function handler(
     req.headers.has("cookie") &&
     req.headers.get("cookie")!.includes("lang")
   ) {
-    ctx.state.lang = req.headers.get("cookie")!.includes("lang=cs")
-      ? "cs"
-      : "en";
+    ctx.state.lang = req.headers.get("cookie")!.includes("lang=en")
+      ? "en"
+      : "cs";
     setLangCookie = false;
-  } else if (req.headers.get("accept-language")?.includes("cs")) {
-    ctx.state.lang = "cs";
-  } else {
+  } else if (req.headers.get("accept-language")?.includes("en")) {
     ctx.state.lang = "en";
+  } else {
+    ctx.state.lang = "cs";
   }
-  ctx.state.t = ctx.state.lang === "cs" ? cs : en;
+  ctx.state.t = ctx.state.lang === "en" ? en : cs;
   const res = await ctx.next();
   setLangCookie && res.headers.set("Set-Cookie", `lang=${ctx.state.lang}`);
   return res;
