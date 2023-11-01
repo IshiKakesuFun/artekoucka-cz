@@ -1,5 +1,43 @@
-export default function Home() {
+import { PageProps } from "$fresh/server.ts";
+import Header from "/components/header.tsx";
+import { State } from "/routes/_middleware.ts";
+
+function Hero() {
+  return <section id="hero"></section>;
+}
+
+function About() {
+  return <section id="about-me"></section>;
+}
+
+function Recommendations() {
+  return <section id="recommendations"></section>;
+}
+
+function Contact() {
+  return <section id="contact"></section>;
+}
+
+export default function Home(props: PageProps<null, State>) {
+  const t = props.state.t!;
+  const links = [
+    { title: t.nav.aboutme.title, href: "#about-me" },
+    { title: t.nav.recommendations.title, href: "#recommendations" },
+    { title: t.nav.contact.title, href: "#contact" },
+  ];
   return (
+    <>
+      <Header active="/" right={links} lang={props.state.lang} />
+      <Hero />
+      <main class="mx-auto max-w-screen-lg px-2 pt-2">
+        <div class="space-y-10">
+          <About />
+          <Recommendations />
+          <Contact />
+        </div>
+      </main>
+    </>
+    /*
     <div class="px-4 py-8 mx-auto bg-[#86efac]">
       <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
         <img
@@ -88,5 +126,6 @@ export default function Home() {
         </blockquote>
       </div>
     </div>
+    */
   );
 }
