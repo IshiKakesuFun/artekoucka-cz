@@ -1,4 +1,0 @@
-import { signal } from "@preact/signals-core";
-import { Translation } from "/i18n/types.ts";
-
-export const T = signal<Translation | null>(null);

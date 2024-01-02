@@ -2,33 +2,30 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/_404.tsx";
-import * as $1 from "./routes/_layout.tsx";
-import * as $2 from "./routes/_middleware.ts";
-import * as $3 from "./routes/aapp.tsx";
-import * as $4 from "./routes/api/joke.ts";
-import * as $5 from "./routes/greet/[name].tsx";
-import * as $6 from "./routes/index.tsx";
-import * as $$0 from "./islands/Counter.tsx";
-import * as $$1 from "./islands/language.tsx";
-import * as $$2 from "./islands/mobile-header.tsx";
+import * as $_app from "./routes/_app.tsx";
+import * as $_layout from "./routes/_layout.tsx";
+import * as $_middleware from "./routes/_middleware.ts";
+import * as $api_joke from "./routes/api/joke.ts";
+import * as $greet_name_ from "./routes/greet/[name].tsx";
+import * as $index from "./routes/index.tsx";
+import * as $Counter from "./islands/Counter.tsx";
+import * as $mobile_header from "./islands/mobile-header.tsx";
+import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
-    "./routes/_404.tsx": $0,
-    "./routes/_layout.tsx": $1,
-    "./routes/_middleware.ts": $2,
-    "./routes/aapp.tsx": $3,
-    "./routes/api/joke.ts": $4,
-    "./routes/greet/[name].tsx": $5,
-    "./routes/index.tsx": $6,
+    "./routes/_app.tsx": $_app,
+    "./routes/_layout.tsx": $_layout,
+    "./routes/_middleware.ts": $_middleware,
+    "./routes/api/joke.ts": $api_joke,
+    "./routes/greet/[name].tsx": $greet_name_,
+    "./routes/index.tsx": $index,
   },
   islands: {
-    "./islands/Counter.tsx": $$0,
-    "./islands/language.tsx": $$1,
-    "./islands/mobile-header.tsx": $$2,
+    "./islands/Counter.tsx": $Counter,
+    "./islands/mobile-header.tsx": $mobile_header,
   },
   baseUrl: import.meta.url,
-};
+} satisfies Manifest;
 
 export default manifest;

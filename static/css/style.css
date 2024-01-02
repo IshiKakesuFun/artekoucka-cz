@@ -1,0 +1,245 @@
+/****************************/
+/* header                   */
+/****************************/
+
+.header {
+  background-color: #fffbf0;
+  /* Because we want header to be sticky later */
+  position: relative;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 4.8rem;
+  height: 9.6rem;
+}
+
+.logo {
+  height: 6.2rem;
+}
+
+/****************************/
+/* navigation               */
+/****************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #ccad51;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.9rem 0 0.9rem 0;
+  background-color: #ffd966;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  color: #333;
+  background-color: #e6c35c;
+}
+
+/****************************/
+/* hero section             */
+/****************************/
+
+.section-hero {
+  background-color: #fffbf0;
+  padding: 0 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 0 4.8rem 0 4.8rem;
+  overflow: hidden;
+}
+
+.hero-text-box {
+  position: absolute;
+  background-image: linear-gradient(
+    60deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.7)
+  );
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.hero-text-box-inner {
+  grid-column: 2;
+  padding: 4.8rem;
+  text-align: center;
+}
+.hero-text-box-inner .heading-1 {
+  color: #fffbf0;
+}
+.hero-description {
+  color: #fffbf0;
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+/****************************/
+/* artekoucink              */
+/****************************/
+
+.section-artekoucink {
+  background-color: #fffbf0;
+  padding: 0 0 9.6rem 0;
+}
+
+/****************************/
+/* services                 */
+/****************************/
+
+.section-services {
+  background-color: #fffbf0;
+  padding: 0 0 9.6rem 0;
+}
+
+/****************************/
+/* faq                      */
+/****************************/
+
+.section-faq {
+  background-color: #fffbf0;
+  padding: 0 0 9.6rem 0;
+}
+
+/****************************/
+/* testimonials             */
+/****************************/
+
+.section-testimonials {
+  background-color: #fffbf0;
+  padding: 0 0 9.6rem 0;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.testimonial:nth-child(3) {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 2;
+}
+.testimonial-box {
+  display: grid;
+  grid-template-columns: 6.4rem 1fr;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+  position: relative;
+}
+
+.testimonial-text::after,
+.testimonial-text::before {
+  display: inline-block;
+  content: "\201c";
+  font-weight: 700;
+  font-size: 6.2rem;
+  font-family: "Playfair Display", serif;
+  line-height: 1.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ccad51;
+  transform: translate(-50%, -50%);
+}
+.testimonial-text::after {
+  content: "\201d";
+  top: 100%;
+  left: 100%;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.testimonial-name span {
+  color: #999;
+  font-size: 1.4rem;
+}
+/****************************/
+/* call-to-action           */
+/****************************/
+
+.section-cta {
+  background-color: #fffbf0;
+  padding: 0 0 9.6rem 0;
+}
+
+/****************************/
+/* about-me                 */
+/****************************/
+
+.section-about-me {
+  background-color: #fffbf0;
+  padding: 0 0 9.6rem 0;
+}
+
+/****************************/
+/* footer                   */
+/****************************/
+
+.footer {
+  padding: 8rem 0;
+  background-color: #fff3d1;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+  height: 6.2rem;
+}
