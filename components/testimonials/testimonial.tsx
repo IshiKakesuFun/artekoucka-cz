@@ -7,11 +7,25 @@ export default function Testimonial(item: TestimonialType) {
         {item.text}
       </blockquote>
       <div class="testimonial-box">
-        <img
-          class="testimonial-img"
-          src={"images/testimonial/" + item.avatar}
-          alt={"Na fotografii je " + item.name}
-        />
+        <picture>
+          <source
+            srcset={"images/testimonial/" + item.avatar + ".webp"}
+            type="image/webp"
+          />
+          <source
+            srcset={"images/testimonial/" + item.avatar + "-512.webp"}
+            type="image/webp"
+          />
+          <source
+            srcset={"images/testimonial/" + item.avatar + "-192.webp"}
+            type="image/webp"
+          />
+          <img
+            class="testimonial-img"
+            src={"images/testimonial/" + item.avatar + "-192.webp"}
+            alt={"Na fotografii je " + item.name}
+          />
+        </picture>
         <p class="testimonial-name">
           {item.name},<br />
           <span>
