@@ -32,7 +32,6 @@ export default function Artekoucink(props: PageProps) {
               {" "}
               <strong>proces zaměřen na pohled do budoucna</strong>.
             </p>
-            <a href="services.html" class="btn btn--outline">Zjitit více &rarr;</a>
           </div>
           <div class="artekoucink-box">
             <h3 class="heading-3">Artekoučink</h3>
@@ -49,6 +48,9 @@ export default function Artekoucink(props: PageProps) {
                 zručnost.
               </strong>
             </p>
+            <a href="/services" class="btn btn--outline">
+              Zjitit více &rarr;
+            </a>
           </div>
         </div>
       </div>
