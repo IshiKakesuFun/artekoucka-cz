@@ -40,6 +40,8 @@ Primary:  #ffd966
 
 - Accents:
 #fbf0ff
+#f4d1ff
+#ecb3ff
 #d966ff
 #9847b3
 #6d3380
@@ -47,8 +49,9 @@ Primary:  #ffd966
 
 - Grays:
 #333
-#555
-#6f6f6f
+#4c4c4c
+#666
+#808080
 #999
 
 --- 05 SHADOWS
@@ -88,7 +91,7 @@ body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  color: #4c4c4c;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
@@ -163,6 +166,22 @@ body {
   background-color: #e6c35c;
 }
 
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fbf0ff;
+  color: #333;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #f4d1ff;
+
+
+  /* border: 3px solid #fff; */
+
+  /* Trick to add border inside */
+  /* box-shadow: inset 0 0 0 3px #fbf0ff; */
+}
 /**************/
 /* helpers    */
 /**************/
