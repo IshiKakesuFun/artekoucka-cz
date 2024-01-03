@@ -120,6 +120,18 @@
   padding: 0 0 9.6rem 0;
 }
 
+.artekoucink {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.artekoucink-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
 /****************************/
 /* services                 */
 /****************************/
@@ -200,11 +212,11 @@
 
 .testimonial-name {
   font-size: 1.6rem;
-  color: #6f6f6f;
+  color: #4c4c4c;
 }
 
 .testimonial-name span {
-  color: #999;
+  color: #666;
   font-size: 1.4rem;
 }
 /****************************/
