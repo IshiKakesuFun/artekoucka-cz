@@ -7,7 +7,7 @@ import CallToAction from "@@/cta/call-to-action.tsx";
 
 export const mainMenu: MenuLinkType[] = [
   { title: "Artekoučink", href: "#artekoucink" },
-  { title: "Služby", href: "#" },
+  { title: "Služby", href: "/services", isCurrent: true },
   { title: "Časté dotazy", href: "/#faq" },
   { title: "Reference", href: "/#testimonials" },
   { title: "O mně", href: "/about-me" },

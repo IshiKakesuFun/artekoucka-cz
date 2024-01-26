@@ -10,7 +10,7 @@ export const mainMenu: MenuLinkType[] = [
   { title: "Služby", href: "/services" },
   { title: "Časté dotazy", href: "/#faq" },
   { title: "Reference", href: "/#testimonials" },
-  { title: "O mně", href: "#" },
+  { title: "O mně", href: "/about-me", isCurrent: true },
   { title: "Konzultace zdarma", href: "#cta", isCallToAction: true },
 ];
 

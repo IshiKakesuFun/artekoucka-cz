@@ -27,25 +27,27 @@ Large: 1.8
 
 Primary:  #ffd966
 - Tints:
-#fffbf0
-#fff7e0
-#fff3d1
-#ffe084
+90% #fffbf0
+80% #fff7e0
+70% #fff4d1
+50% #ffecb3
+20% #ffe185
 
 - Shades: 
-#e6c35c
-#ccad51
-#806d33
-#4c411e
+10% #e6c35c
+20% #ccae52
+50% #806d33
+70% #4c411f
 
 - Accents:
-#fbf0ff
-#f4d1ff
-#ecb3ff
-#d966ff
-#9847b3
-#6d3380
-#2b1433
+90% #fbf0ff
+70% #f4d1ff
+50% #ecb3ff
+0% #d966ff
+20% #ae52cc
+30% #9847b3
+50% #6d3380
+80% #2b1433
 
 - Grays:
 #333
@@ -73,6 +75,8 @@ Primary:  #ffd966
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  min-width: 0;
+  min-height: 0;
 }
 
 html {
@@ -97,6 +101,19 @@ body {
   overflow-x: hidden;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+p {
+  max-width: 70ch;
+  text-wrap: pretty;
+}
 /***********************/
 /* reusable components */
 /***********************/
@@ -141,7 +158,7 @@ body {
 
   text-decoration: none;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   padding: 1.6rem 3.2rem;
   border-radius: 1.1rem 0 1.1rem 0;
 
@@ -176,12 +193,36 @@ body {
 .btn--outline:active {
   background-color: #f4d1ff;
 
-
   /* border: 3px solid #fff; */
 
   /* Trick to add border inside */
   /* box-shadow: inset 0 0 0 3px #fbf0ff; */
 }
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 1.4;
+  text-wrap: balance;
+}
+
+.list-icon {
+  width: 3rem;
+  min-width: 3rem;
+  height: 3rem;
+  min-height: 3rem;
+  color: #ccae52;
+}
+
 /**************/
 /* helpers    */
 /**************/
