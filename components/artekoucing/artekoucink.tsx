@@ -1,6 +1,13 @@
-import { PageProps } from "$fresh/server.ts";
+import { IoPeopleOutline, IoPersonOutline } from "@io5";
+import PersonalTopics from "@@/artekoucing/personal-topics.tsx";
+import TeamTopics from "@@/artekoucing/team-topics.tsx";
 
-export default function Artekoucink(props: PageProps) {
+export type ArtekoucinkProps = {
+  personalTopics: string[];
+  teamTopics: string[];
+};
+
+export default function Artekoucink(props: ArtekoucinkProps) {
   return (
     <section class="section-artekoucink" id="artekoucink">
       <div class="container">
@@ -51,6 +58,16 @@ export default function Artekoucink(props: PageProps) {
             <a href="/services" class="btn btn--outline">
               Zjitit více &rarr;
             </a>
+          </div>
+        </div>
+        <div class="artekoucink-topics">
+          <div class="artekoucink-box">
+            <h3 class="heading-3">Příklady témat, se kterými klienti přichází</h3>
+            <PersonalTopics {...props} />
+          </div>
+          <div class="artekoucink-box">
+            <h3 class="heading-3">Příklady témat, která řeší pracovní týmy</h3>
+            <TeamTopics {...props} />
           </div>
         </div>
       </div>
