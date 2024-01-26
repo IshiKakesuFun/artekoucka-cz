@@ -2,6 +2,7 @@ export type MenuLinkType = {
   title: string;
   href: string;
   isCallToAction?: boolean;
+  isCurrent?: boolean;
 };
 
 export type NavigationProps = {
@@ -11,8 +12,11 @@ export type NavigationProps = {
 function MenuItem(item: MenuLinkType) {
   return (
     <li>
-      {!item.isCallToAction && (
+      {!item.isCallToAction && !item.isCurrent && (
         <a class="main-nav-link" href={item.href}>{item.title}</a>
+      )}
+      {!item.isCallToAction && item.isCurrent && (
+        <a class="main-nav-link nav-current" href={item.href}>{item.title}</a>
       )}
       {item.isCallToAction && (
         <a class="main-nav-link nav-cta" href={item.href}>{item.title}</a>
