@@ -9,10 +9,10 @@ export type HeaderProps = {
 
 function LargeHeader(props: Omit<HeaderProps, "sticky">) {
   return (
-    <div class="header-container">
+    <>
       <Logo />
       <Navigation {...props} />
-    </div>
+    </>
   );
 }
 
