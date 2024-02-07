@@ -1,8 +1,10 @@
 import { PriKakesuFun, PriLogoDenoFresh } from "@icons";
+import SocialLinks from "@@/footer/social-links.tsx";
 
-export default function CopyRight() {
+export default function FooterCopyRight() {
   return (
     <div class="container footer-copyright">
+      <SocialLinks />
       <div class="copyright">
         {"\u00A9"}
         {new Date().getFullYear()} Mgr. Marta Sojková, MBA.{" "}
@@ -26,8 +28,16 @@ export default function CopyRight() {
           <span>
             Created with
           </span>
-          <a class="footer-link" href="https://fresh.deno.dev" title="Deno FRESH" target="_blank">
-            <PriLogoDenoFresh class="copyright-icon--fresh" secondColor="#fff4d1">
+          <a
+            class="footer-link"
+            href="https://fresh.deno.dev"
+            title="Deno FRESH"
+            target="_blank"
+          >
+            <PriLogoDenoFresh
+              class="copyright-icon--fresh"
+              secondColor="#fff4d1"
+            >
             </PriLogoDenoFresh>
           </a>
         </span>
