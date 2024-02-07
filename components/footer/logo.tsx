@@ -1,6 +1,6 @@
 export default function Logo() {
   return (
-    <a href="/">
+    <a href="/" class="footer-link">
       <img
         class="footer-logo"
         alt="Artekoučka logo"
