@@ -1,4 +1,4 @@
-import { IoPersonOutline } from "@io5";
+import { PriPersonOutline } from "@icons";
 import { ArtekoucinkProps } from "@@/artekoucing/artekoucink.tsx";
 
 export default function PersonalTopics(props: ArtekoucinkProps) {
@@ -6,7 +6,7 @@ export default function PersonalTopics(props: ArtekoucinkProps) {
     <ul class="list">
       {props.personalTopics.map((item) => (
         <li class="list-item">
-          <IoPersonOutline class="list-icon"></IoPersonOutline>
+          <PriPersonOutline class="list-icon"></PriPersonOutline>
           <span>
             {item}
           </span>
