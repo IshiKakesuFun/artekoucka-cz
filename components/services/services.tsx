@@ -1,4 +1,9 @@
 import { MenuLinkType } from "@@/header/navigation.tsx";
+import {
+  PriCheckmarkDone,
+  PriCheckmark,
+  PriClose
+} from "@icons";
 
 export type ServiceCardType = {
   info: MenuLinkType;
@@ -11,7 +16,7 @@ export type ServicesProps = {
 
 export default function Services(props: ServicesProps) {
   return (
-    <section class="section-services" id="services">
+    <section class="section-services" id="nabidka-sluzeb">
       <div class="container">
         <h2 class="heading-2">Co nabízím</h2>
         <div class="services">
@@ -42,16 +47,44 @@ export default function Services(props: ServicesProps) {
             </div>
             <div class="service-card-box">
               <ul class="list">
-                <li>param 1</li>
-                <li>param 2</li>
-                <li>param 3</li>
-                <li>param 4</li>
-                <li>param 5</li>
+                <li class="list-item">
+                  <span>
+                    Úvodní konzultace v délce <strong>20</strong> minut{" "}
+                    <strong>zdarma</strong>
+                  </span>
+                </li>
+                <li class="list-item">
+                  <span>
+                    Sezení v délce <strong>60-90</strong> minut:
+                  </span>
+                </li>
+                <li class="list-item">
+                  <PriCheckmarkDone class="list-icon list-icon--green">
+                  </PriCheckmarkDone>
+                  <span>V ateliéru s možností využití kreativních technik</span>
+                </li>
+                <li class="list-item">
+                  <PriCheckmark class="list-icon list-icon--green">
+                  </PriCheckmark>
+                  <span>U klienta</span>
+                </li>
+                <li class="list-item">
+                  <PriCheckmark class="list-icon list-icon--green">
+                  </PriCheckmark>
+                  <span>On-line</span>
+                </li>
+                <li class="list-item">
+                  <span>
+                    Cena od <strong>1800</strong>&nbsp;Kč/sezení
+                  </span>
+                </li>
               </ul>
-              <a href="/services" class="btn btn--outline">
-                Zjitit více &rarr;
+              <a href="/sluzby/#individualni-koucink" class="btn btn--outline">
+                Zjistit více &rarr;
               </a>
-              <a href="#cta" class="btn btn--full">Chci konzultaci zdarma</a>
+              <a href="#konzultace-zdarma" class="btn btn--full">
+                Chci konzultaci zdarma
+              </a>
             </div>
           </div>
 
@@ -82,18 +115,49 @@ export default function Services(props: ServicesProps) {
             </div>
             <div class="service-card-box">
               <ul class="list">
-                <li>param 1</li>
-                <li>param 2</li>
-                <li>param 3</li>
-                <li>param 3</li>
-                <li>param 3</li>
-                <li>param 4</li>
-                <li>param 5</li>
+                <li class="list-item">
+                  <span>
+                    Úvodní konzultace v délce <strong>20</strong> minut{" "}
+                    <strong>zdarma</strong>
+                  </span>
+                </li>
+                <li class="list-item">
+                  <span>
+                    Individuální rozhovory se zadavetelem a členy týmu
+                  </span>
+                </li>
+                <li class="list-item">
+                  <span>
+                    Týmové setkání <strong>4 a více</strong>&nbsp;hodin:
+                  </span>
+                </li>
+                <li class="list-item">
+                  <PriCheckmarkDone class="list-icon list-icon--green">
+                  </PriCheckmarkDone>
+                  <span>V ateliéru s možností využití kreativních technik</span>
+                </li>
+                <li class="list-item">
+                  <PriCheckmark class="list-icon list-icon--green">
+                  </PriCheckmark>
+                  <span>U klienta</span>
+                </li>
+                <li class="list-item">
+                  <PriClose class="list-icon list-icon--red">
+                  </PriClose>
+                  <span>On-line</span>
+                </li>
+                <li class="list-item">
+                  <span>
+                    Cena od <strong>3000</strong>&nbsp;Kč/hodinu
+                  </span>
+                </li>
               </ul>
-              <a href="/services" class="btn btn--outline">
-                Zjitit více &rarr;
+              <a href="/sluzby/#tymovy-koucink" class="btn btn--outline">
+                Zjistit více &rarr;
               </a>
-              <a href="#cta" class="btn btn--full">Chci konzultaci zdarma</a>
+              <a href="#konzultace-zdarma" class="btn btn--full">
+                Chci konzultaci zdarma
+              </a>
             </div>
           </div>
 
@@ -124,17 +188,49 @@ export default function Services(props: ServicesProps) {
             </div>
             <div class="service-card-box">
               <ul class="list">
-                <li>param 1</li>
-                <li>param 2</li>
-                <li>param 3</li>
-                <li>param 4</li>
-                <li>param 5</li>
+                <li class="list-item">
+                  <span>
+                    Úvodní konzultace v délce <strong>20</strong> minut{" "}
+                    <strong>zdarma</strong>
+                  </span>
+                </li>
+                <li class="list-item">
+                  <span>
+                    Školení efektivní komunikace
+                  </span>
+                </li>
+                <li class="list-item">
+                  <span>
+                    Teambuildingová setkání, firemní večírky a akce
+                  </span>
+                </li>
+                <li class="list-item">
+                  <PriCheckmarkDone class="list-icon list-icon--green">
+                  </PriCheckmarkDone>
+                  <span>V ateliéru s možností využití kreativních technik</span>
+                </li>
+                <li class="list-item">
+                  <PriCheckmark class="list-icon list-icon--green">
+                  </PriCheckmark>
+                  <span>U klienta</span>
+                </li>
+                <li class="list-item">
+                  <PriClose class="list-icon list-icon--red">
+                  </PriClose>
+                  <span>On-line</span>
+                </li>
+                <li class="list-item">
+                  <span>
+                    Cena od <strong>2500</strong>&nbsp;Kč/hodinu
+                  </span>
+                </li>
               </ul>
-              <div class="service-card-actions">
-                <a href="/services" class="btn btn--outline">
-                  Zjitit více &rarr;
-                </a>
-              </div>
+              <a href="/sluzby/#na-klic" class="btn btn--outline">
+                Zjistit více &rarr;
+              </a>
+              <a href="#konzultace-zdarma" class="btn btn--full">
+                Chci konzultaci zdarma
+              </a>
             </div>
           </div>
         </div>
