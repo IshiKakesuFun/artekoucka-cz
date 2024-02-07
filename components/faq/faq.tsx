@@ -14,7 +14,7 @@ export type FaqProps = {
 
 export default function Faq(props: FaqProps) {
   return (
-    <section class="section-faq" id="faq">
+    <section class="section-faq" id="caste-dotazy">
       <div class="container">
         <h2 class="faq-heading">Časté dotazy</h2>
         <div class="faqs" id="accordionFaqs">

@@ -1,4 +1,3 @@
-import { IoPeopleOutline, IoPersonOutline } from "@io5";
 import PersonalTopics from "@@/artekoucing/personal-topics.tsx";
 import TeamTopics from "@@/artekoucing/team-topics.tsx";
 
@@ -55,14 +54,16 @@ export default function Artekoucink(props: ArtekoucinkProps) {
                 zručnost.
               </strong>
             </p>
-            <a href="/services" class="btn btn--outline">
-              Zjitit více &rarr;
+            <a href="/sluzby/#atelier" class="btn btn--outline">
+              Zjistit více &rarr;
             </a>
           </div>
         </div>
-        <div class="artekoucink-topics">
+        <div class="artekoucink-topics" id="obvykla-temata">
           <div class="artekoucink-box">
-            <h3 class="heading-3">Příklady témat, se kterými klienti přichází</h3>
+            <h3 class="heading-3">
+              Příklady témat, se kterými klienti přichází
+            </h3>
             <PersonalTopics {...props} />
           </div>
           <div class="artekoucink-box">
