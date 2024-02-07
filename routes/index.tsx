@@ -14,12 +14,16 @@ import AboutMe from "@@/about-me/about-me.tsx";
 import CallToAction from "@@/cta/call-to-action.tsx";
 
 export const mainMenu: MenuLinkType[] = [
-  { title: "Artekoučink", href: "#artekoucink" },
-  { title: "Služby", href: "#services" },
-  { title: "Časté dotazy", href: "#faq" },
-  { title: "Reference", href: "#testimonials" },
-  { title: "O mně", href: "/about-me" },
-  { title: "Konzultace zdarma", href: "#cta", isCallToAction: true },
+  { title: "Artekoučink", href: "/#artekoucink" },
+  { title: "Služby", href: "/#nabidka-sluzeb" },
+  { title: "Časté dotazy", href: "/#caste-dotazy" },
+  { title: "Reference", href: "/#reference" },
+  { title: "O mně", href: "/o-mne" },
+  {
+    title: "Konzultace zdarma",
+    href: "#konzultace-zdarma",
+    isCallToAction: true,
+  },
 ];
 
 export const personalTopics: string[] = [
@@ -61,17 +65,20 @@ export const faqs: FaqType[] = [
   },
   {
     question: "Proč bych do toho měl jít já sám (můj tým) zrovna v ateliéru?",
-    answer: "Prostředí ateliéru je neotřelé, inspirativní a představuje neutrální půdu pro všechny zúčastněné. Metody a techniky zde využívané nelze přenést do jiných prostor (nikdo se při práci s barvami příliš neuvolní v zasedačce s kobercem).",
+    answer:
+      "Prostředí ateliéru je neotřelé, inspirativní a představuje neutrální půdu pro všechny zúčastněné. Metody a techniky zde využívané nelze přenést do jiných prostor (nikdo se při práci s barvami příliš neuvolní v zasedačce s kobercem).",
     column: 0,
   },
   {
     question: "Jak často je třeba docházet?",
-    answer: "Záleží na vůli klienta, jeho cílech a potřebách. Jednorázová setkání jsou vhodná pro práci na konkrétním cíli malého rozsahu (např. si klient potřebuje ujasnit pracovní priority na následující kvartál), témata týkající se zvyšování sebevědomí jsou prací na několik měsíců. Frekvence setkání se odvíjí od naléhavosti a schopnosti klienta stanovené kroky uvádět do praxe, průměrně můžeme mluvit o měsíčním intervalu.",
+    answer:
+      "Záleží na vůli klienta, jeho cílech a potřebách. Jednorázová setkání jsou vhodná pro práci na konkrétním cíli malého rozsahu (např. si klient potřebuje ujasnit pracovní priority na následující kvartál), témata týkající se zvyšování sebevědomí jsou prací na několik měsíců. Frekvence setkání se odvíjí od naléhavosti a schopnosti klienta stanovené kroky uvádět do praxe, průměrně můžeme mluvit o měsíčním intervalu.",
     column: 1,
   },
   {
     question: "Proč bych si měl jako kouče vybrat zrovna Martu?",
-    answer: "Marta má pro výkon profese kouče odpovídající vzdělání akreditované ICF (International Coach Federation), hlásí se k jejímu etickému kodexu a dále se v oboru vzdělává u renomovaných škol. Nebojí se zeptat na otázku, kterou si klient třeba obává položit a postará se o to, aby klient ze sezení odcházel s konkrétním, reálným úkolem, který klienta přiblíží ke stanovenému cíli. Viz reference.",
+    answer:
+      "Marta má pro výkon profese kouče odpovídající vzdělání akreditované ICF (International Coach Federation), hlásí se k jejímu etickému kodexu a dále se v oboru vzdělává u renomovaných škol. Nebojí se zeptat na otázku, kterou si klient třeba obává položit a postará se o to, aby klient ze sezení odcházel s konkrétním, reálným úkolem, který klienta přiblíží ke stanovenému cíli. Viz reference.",
     column: 0,
   },
 ];
