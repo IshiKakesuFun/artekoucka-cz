@@ -24,12 +24,12 @@ export default function HeroServices(props: PageProps) {
         <div class="hero-text-box-services">
           <div class="hero-text-box-inner-services">
             <h1 class="heading-1">
-              Zažijte koučink, kde barvy nejsou jen odstíny, ale klíče k
-              odemknutí vašeho potenciálu.
+              Jsem profesionální koučka, která miluje ruce umazané od barev. Mám
+              kuráž pokládat trefné otázky. Těší mě, když se věci hýbou.
             </h1>
             <p class="hero-description">
             </p>
-            <a href="#cta" class="btn btn--full">Nezávazná konzultace zdarma</a>
+            <a href="#konzultace-zdarma" class="btn btn--full">Nezávazná konzultace zdarma</a>
           </div>
         </div>
       </div>

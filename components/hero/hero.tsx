@@ -35,7 +35,7 @@ export default function Hero(props: PageProps) {
               nečekaných zdrojích. Objevte nová řešení pro individální i týmový
               růst.
             </p>
-            <a href="#cta" class="btn btn--full">Nezávazná konzultace zdarma</a>
+            <a href="#konzultace-zdarma" class="btn btn--full">Nezávazná konzultace zdarma</a>
           </div>
         </div>
       </div>

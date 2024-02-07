@@ -15,7 +15,7 @@ export type TestimonialProps = {
 
 export default function Testimonials(props: TestimonialProps) {
   return (
-    <section class="section-testimonials" id="testimonials">
+    <section class="section-testimonials" id="reference">
       <div class="container">
         <h2 class="heading-2">Reference</h2>
         <div class="testimonials">
