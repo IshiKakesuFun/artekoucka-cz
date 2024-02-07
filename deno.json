@@ -18,8 +18,10 @@
     "twind": "https://esm.sh/twind@0.16.19",
     "twind/": "https://esm.sh/twind@0.16.19/",
     "$std/": "https://deno.land/std@0.193.0/",
+    "@preact_icons": "https://deno.land/x/react_icons@1.0.9/mod.ts",
     "@io5": "https://deno.land/x/react_icons_io5@1.0.9/mod.ts",
     "@io5/": "https://deno.land/x/react_icons_io5@1.0.9/ico/",
+    "@icons": "./components/icons/mod.ts",
     "@@/": "./components/",
     "/": "./",
     "./": "./"
