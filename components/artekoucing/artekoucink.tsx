@@ -1,9 +1,16 @@
-import PersonalTopics from "@@/artekoucing/personal-topics.tsx";
-import TeamTopics from "@@/artekoucing/team-topics.tsx";
+import PersonalTopics, {
+  defaulPersonalTopics,
+} from "@@/artekoucing/personal-topics.tsx";
+import TeamTopics, { defaultTeamTopics } from "@@/artekoucing/team-topics.tsx";
 
 export type ArtekoucinkProps = {
   personalTopics: string[];
   teamTopics: string[];
+};
+
+export const defaultArtekoucinkProps: ArtekoucinkProps = {
+  personalTopics: defaulPersonalTopics,
+  teamTopics: defaultTeamTopics,
 };
 
 export default function Artekoucink(props: ArtekoucinkProps) {
