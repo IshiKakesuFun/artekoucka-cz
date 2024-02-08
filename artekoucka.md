@@ -32,82 +32,27 @@ v nečekaných zdrojích. Objevte nová řešení pro individální i týmový r
 
 #### Koučink
 
-je způsob, jak nalézt řešení v nejrůznějších tématech a oblastech, kde si nevíme
-rady či stojíme na křižovatce. Tato řešení si za pomoci zvídavých otázek kouče
-objevuje klient sám tak, aby respektovala jeho možnosti, schopnosti a byla v
-souladu s jeho potřebami.
+DONE
 
 #### Cíl koučinku
 
-si stanovuje koučovaný. Kouč mu pomáhá držet směr, hledat nové úhly pohledu,
-zdroje, podporuje ho v tvorbě plánů, strategií a taky koučovaného “pošťouchne”
-ke stanovení konkrétních kroků, které povedou k cíli efektivně a přímo. Není
-však rádcem, mentorem, který by klientovi říkal, co a jak má dělat. Za výsledek
-koučování je tak zodpovědný sám klient. Na rozdíl od psychoterapie, která se
-obrací do minulosti, je celý proces zaměřen na pohled do budoucna.
+DONE
 
 #### Artekoučink
 
-je způsob koučování, který spojuje prvky kreativního vyjadřování s koučovacím
-procesem. Kreativní prvky a metody slouží jako prostředek pro hlubší
-sebepoznání, komunikaci a nalezení perspektiv. Předpokladem pro využití tohoto
-způsobu je pouze ochota to zkusit, nikoli předchozí výtvarné zkušenosti či
-řemeslná zručnost.
+DONE
 
 #### Témata, se kterými klienti často přichází
 
-- Jsem pořád v práci, nemám čas na rodinu a koníčky. Jak to vybalancovat?
-- Končí mi rodičovská dovolená a nevím, kam se mám vrtnout.
-- S partnerem nám vázne komunikace, přijde mi, že každý mluvíme jiným jazykem.
-- Necítím se dobře v novém kolektivu v práci.
-- Mám dvě nové pracovní nabídky a nevím, kterou vzít.
-- Když se mám potkat s tchýní, svírá mě žaludek.
-- Nedaří se mi dotahovat rozdělané věci.
+DONE
 
 #### Témata, která řeší pracovní týmy
 
-- Čeká nás nový projekt a nevíme, jak s ním naložit.
-- Lidi spolu moc nemluví, informace se ztrácí a nedoputují tam, kam by měly.
-- Budeme nabírat nového člověka a potřebujeme ho začlenit.
-- Podřízení ztrácí motivaci k práci.
-- Potřebujeme vymezit a vyjasnit role a kompetence.
-- Rádi bychom efektivně využili našich silných stránek.
-- Neumíme řešit konflikty, vždy se pohádáme jako psi.
-- Potřebujeme zrevidovat naši vizi a misi.
-- Každý si hrabe na svém písečku, jsme my vlastně vůbec tým?
+DONE
 
 ### Services - cards
 
-#### Individuální koučink - card
-
-- Úvodní konzultace v délce 20 min telefonicky/on-line zdarma
-- Sezení v délce cca 60-90 min:
-  - V ateliéru s možností využití kreativních technik
-  - U klienta
-  - On-line
-- Možnost jedné konzultace či balíčku sezení
-- Cena od 1800 Kč/sezení
-
-#### Týmový koučink - card
-
-- Úvodní konzultace v délce 20 min telefonicky/on-line zdarma
-- Schůzka se zadavatelem u klienta (cca 60 min)
-- Individuální rozhovory se členy týmu
-- Zpracování analýzy a doporučení
-- Revize zadání
-- Týmové setkání (4 a více hodin)
-  - V ateliéru s možností využití kreativních technik
-  - U klienta
-- Vyhodnocení a nastavení dalších kroků
-- Možnost přizvat ke spolupráci druhého kouče
-- Cena dle rozsahu zakázky od 3000 Kč/hod
-
-#### Další formy práce s týmem na klíč - card
-
-- Školení efektivní komunikace
-- Teambuildingová setkání
-- Firemní večírky (vánoční, oslava dokončení projektu atd.)
-- Cena od 2500 Kč/hod
+In Progress
 
 ### Services
 
@@ -245,70 +190,11 @@ Cena celkem: 24 000 Kč.
 
 ### FAQ
 
-Pro koho je artekoučink vhodný a pro koho ne?
-
-Artekoučink je vhodný pro všechny, kteří jsou ochotni vzít zodpovědnost za svůj život do svých rukou a vykročit směrem k cíli. Koučovací přístup není vhodný pro jedince, kteří mají tendence svádět své neúspěchy na své okolí (partner, rodina, šéf, vláda, …). Pokud není jeho cílem tento postoj změnit :). Z praktického hlediska může být problematická návštěva imobilního klienta (schody). 
-
-Musím malovat? Bojím se toho, není to můj šálek …
-
-Možnosti využití výtvarných technik jsou zcela na dobrovolné bázi. Výtvarné vyjádření slouží jako prostředek komunikace, zaznamenání pocitů a rozhodně nejsou předmětem hodnocení či analyzování koučem. Pokud má klient ostych, můžeme využít jednodušších technik (koláží) či se k barvám vůbec nepřiblížit a vést standardní koučovací rozhovor v křesílkách :). 
-
-Proč bych do toho měl jít já sám (můj tým) zrovna v ateliéru?
-
-Prostředí ateliéru je neotřelé, inspirativní a představuje neutrální půdu pro všechny zúčastněné. Metody a techniky zde využívané nelze přenést do jiných prostor (nikdo se při práci s barvami příliš neuvolní v zasedačce s kobercem). 
-
-Jak často je třeba docházet?
-
-Záleží na vůli klienta, jeho cílech a potřebách. Jednorázová setkání jsou vhodná pro práci na konkrétním cíli malého rozsahu (např. si klient potřebuje ujasnit pracovní priority na následující kvartál), témata týkající se zvyšování sebevědomí jsou prací na několik měsíců. Frekvence setkání se odvíjí od naléhavosti a schopnosti klienta stanovené kroky uvádět do praxe, průměrně můžeme mluvit o měsíčním intervalu.
-
-Proč bych si měl jako kouče vybrat zrovna Martu?
-
-Marta má pro výkon profese kouče odpovídající vzdělání akreditované ICF (International Coach Federation), hlásí se k jejímu etickému kodexu a dále se v oboru vzdělává u renomovaných škol. Nebojí se zeptat na otázku, kterou si klient třeba obává položit a postará se o to, aby klient ze sezení odcházel s konkrétním, reálným úkolem, který klienta přiblíží ke stanovenému cíli. Viz reference. 
+DONE
 
 ### Testimonials
 
-> Marty empatický a přesto zcela profesionální přístup mě rozmluvil víc, než
-> bych si dokázala připustit. Dokonalé vedení a jasná struktura byly tou
-> správnou cestou podstatě problém. Pomáhá utřídit si myšlenky a převádí na
-> cesty, které by člověk jen tak nenašel.
->
-> Bc. Jana Homolová, hypoteční specialistka
-
-> Schůzka u Marti mi dala super pohled z druhé strany problému. Dokázala jsem se
-> vžít do role druhého člověka a více vnímat jeho potřeby a že všechno není jen
-> jednostranné. Cítila jsem se dobře, s Marti se známe delší dobu a neměla jsem
-> problém otevřeně popsat, co potřebuji vyřešit. Jsem ráda že mě Marta dokázala
-> držet u tématu, protože to co potřebuje řešit a zpracovávat, mě často odvádí
-> od důležitých bodů a Marti byla v tomhle naprosto profesionální.
->
-> Bc. Monika Harantová, Sales director
-
-> Marta mi pomohla jako osobní kouč. Ukázala mi, že všechny odpovědi už mám v
-> sobě. Navedla mě na jiný úhel pohledu na určitý problém.
->
-> Zuzana Dolejšová, recepční
-
-> U Marti jsem byla na koučovací hodině. Ze začátku se mi nezdálo moc
-> pravděpodobné, že by mi to jakkoliv mohl pomoci. S Marti se známe, je moc milá
-> fajn ženská, tak jsem ani nebyla nervózní, ale jak mi může pomoci? Na konci
-> hodiny jsem brečela jak želva, protože účelem její služby není mi říct, jak to
-> mám udělat, ale přijít si na to sama, což se pod jejím vedením podařilo! Bylo
-> to neuvěřitelné, děkuji ti za to. Vřele tě všem doporučuji.
->
-> Petra Jozífová, make-up artist
-
-> Známe to všichni, chceme se v něčem zdokonalit, ale práce a rodina nám
-> zabírají tolik času, že představa chodit někam na kroužek je nemyslitelná,
-> natož pak dělat doma ještě nějaké domácí úkoly. Když ale já se sama nedonutím
-> udělat si nějaký plán, natož ho ještě striktně dodržovat. Jen z té představy,
-> že zase něco musím, je mi špatně. Pokud to máte stejně jako já, jděte na
-> koučink k Martě. Možná to zní trochu jako nábor do sekty, ale nebojte se,
-> společně s ní najdete svoji vnitřní motivací, pomůže vám najít cestu a určitý
-> směr k vysněnému cíli, ať už je jakýkoliv. Jako bonus vás nabije pozitivní
-> energií, která z ní pokaždé vyzařuje. Nemůžete nic ztratit, pouze získat. Za
-> mě vřele doporučuji.
->
-> Ing. Monika Ulčová, pedagog
+DONE 
 
 ### Call to action
 
