@@ -6,9 +6,9 @@ import * as $_app from "./routes/_app.tsx";
 import * as $_layout from "./routes/_layout.tsx";
 import * as $_middleware from "./routes/_middleware.ts";
 import * as $api_joke from "./routes/api/joke.ts";
-import * as $gdpr from "./routes/gdpr.tsx";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
+import * as $informace_o_zpracovani_osobnich_udaju from "./routes/informace-o-zpracovani-osobnich-udaju.tsx";
 import * as $o_mne from "./routes/o-mne.tsx";
 import * as $obchodni_podminky from "./routes/obchodni-podminky.tsx";
 import * as $sluzby from "./routes/sluzby.tsx";
@@ -22,9 +22,10 @@ const manifest = {
     "./routes/_layout.tsx": $_layout,
     "./routes/_middleware.ts": $_middleware,
     "./routes/api/joke.ts": $api_joke,
-    "./routes/gdpr.tsx": $gdpr,
     "./routes/greet/[name].tsx": $greet_name_,
     "./routes/index.tsx": $index,
+    "./routes/informace-o-zpracovani-osobnich-udaju.tsx":
+      $informace_o_zpracovani_osobnich_udaju,
     "./routes/o-mne.tsx": $o_mne,
     "./routes/obchodni-podminky.tsx": $obchodni_podminky,
     "./routes/sluzby.tsx": $sluzby,
