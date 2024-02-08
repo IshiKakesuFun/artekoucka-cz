@@ -1,6 +1,4 @@
-import { PageProps } from "$fresh/server.ts";
-
-export default function HeroServices(props: PageProps) {
+export default function HeroServices() {
   return (
     <section class="section-hero">
       <div class="hero">

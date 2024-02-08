@@ -1,6 +1,4 @@
-import { PageProps } from "$fresh/server.ts";
-
-export default function HeroAboutMe(props: PageProps) {
+export default function HeroAboutMe() {
   return (
     <section class="section-hero">
       <div class="hero">
@@ -29,7 +27,9 @@ export default function HeroAboutMe(props: PageProps) {
             </h1>
             <p class="hero-description">
             </p>
-            <a href="#konzultace-zdarma" class="btn btn--full">Nezávazná konzultace zdarma</a>
+            <a href="#konzultace-zdarma" class="btn btn--full">
+              Nezávazná konzultace zdarma
+            </a>
           </div>
         </div>
       </div>
