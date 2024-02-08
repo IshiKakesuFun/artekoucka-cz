@@ -1,5 +1,6 @@
 import { PageProps } from "$fresh/server.ts";
 import Footer from "@@/footer/footer.tsx";
+import { defaulFooterNavProps } from "@@/footer/footer-nav.tsx";
 import Header, { HeaderProps } from "@@/header/header.tsx";
 import { MenuLinkType } from "@@/header/navigation.tsx";
 import HeroAboutMe from "@@/hero/hero-about-me.tsx";
@@ -23,9 +24,9 @@ export default function AboutMe(props: PageProps<null>) {
     <>
       <Header {...headerProps} />
       <main>
-        <HeroAboutMe {...props} />
+        <HeroAboutMe />
       </main>
-      <Footer {...props} />
+      <Footer {...defaulFooterNavProps} />
     </>
   );
 }

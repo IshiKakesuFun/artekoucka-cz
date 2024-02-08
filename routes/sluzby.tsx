@@ -1,5 +1,6 @@
 import { PageProps } from "$fresh/server.ts";
 import Footer from "@@/footer/footer.tsx";
+import { defaulFooterNavProps } from "@@/footer/footer-nav.tsx";
 import Header, { HeaderProps } from "@@/header/header.tsx";
 import { MenuLinkType } from "@@/header/navigation.tsx";
 import CallToAction from "@@/cta/call-to-action.tsx";
@@ -8,6 +9,7 @@ import ServiceIndividual from "@@/services/individual/service-individual.tsx";
 import ServiceCustom from "@@/services/custom/service-custom.tsx";
 import ServiceTeam from "@@/services/team/service-team.tsx";
 import Atelier from "@@/services/atelier.tsx";
+import AboutMe from "@@/about-me/about-me.tsx";
 
 export const mainMenu: MenuLinkType[] = [
   { title: "Artekoučink", href: "#atelier" },
@@ -28,14 +30,15 @@ export default function Artekoucink(props: PageProps<null>) {
     <>
       <Header {...headerProps} />
       <main>
-        <HeroServices {...props} />
-        <Atelier {...props} />
-        <ServiceIndividual {...props} />
-        <ServiceTeam {...props} />
-        <ServiceCustom {...props} />
+        <HeroServices />
+        <Atelier />
+        <ServiceIndividual />
+        <ServiceTeam />
+        <ServiceCustom />
         <CallToAction {...props} />
+        <AboutMe />
       </main>
-      <Footer {...props} />
+      <Footer {...defaulFooterNavProps} />
     </>
   );
 }
