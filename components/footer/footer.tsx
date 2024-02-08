@@ -1,15 +1,14 @@
-import { PageProps } from "$fresh/server.ts";
 import FooterCopyRight from "@@/footer/footer-copyright.tsx";
 import Address from "@@/footer/address.tsx";
-import FooterNav from "@@/footer/footer-nav.tsx";
-import FooterLogo from "./footer-logo.tsx";
+import FooterNav, { FooterNavigationProps } from "@@/footer/footer-nav.tsx";
+import FooterLogo from "@@/footer/footer-logo.tsx";
 
-export default function Footer(props: PageProps) {
+export default function Footer(props: FooterNavigationProps) {
   return (
     <footer class="footer">
-      <div class="container grid grid--footer">
+      <div class={"container grid grid--footer-" + (props.menu?.length ?? 3)}>
         <FooterLogo />
-        <Address {...props} />
+        <Address />
         <FooterNav {...props} />
       </div>
       <FooterCopyRight />

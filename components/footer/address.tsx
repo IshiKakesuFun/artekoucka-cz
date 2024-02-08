@@ -1,6 +1,4 @@
-import { PageProps } from "$fresh/server.ts";
-
-export default function Address(props: PageProps) {
+export default function Address() {
   return (
     <div class="address-col">
       <p class="footer-heading">Kontakt</p>
