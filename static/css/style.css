@@ -4,15 +4,20 @@
 
 .header {
   /* Because we want header to be sticky later */
+  /* max-width: 130rem;
+  margin: 0 auto; */
+  position: relative;
+  background-color: #fffbf0;
+}
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* max-width: 130rem;
-  margin: 0 auto; */
-  padding: 0 4.8rem;
   height: 9.6rem;
-  position: relative;
-  background-color: #fffbf0;
+  padding: 0 3.2rem;
+  
+  max-width: 130rem;
+  margin: 0 auto;
 }
 
 .logo {
@@ -549,9 +554,44 @@ details[open] .faq-icon {
   background-color: #fffbf0;
   padding: 0 0 9.6rem 0;
 }
+.about-me {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  max-width: 84rem;
+  margin: 0 auto;
+  border-radius: 0 4.8rem 0 4.8rem;
+  border: 1px solid #ccae52;
+  overflow: hidden;
+}
+
+.about-me-img-box {
+  /* background-image: linear-gradient(
+      to left top,
+      rgba(255, 236, 179, 0.05),
+      rgba(255, 217, 102, 0.35)
+    ),
+    url("../images/artekoucka-cta-1000.webp"); */
+  background-image: url("../images/artekoucka-about-1000.webp");
+  background-size: cover;
+  background-position: top;
+}
+.about-me .heading-2 {
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+
+.about-me-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+.about-me-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
 
 /****************************/
-/* page:services            */
+/* page:sluzby              */
 /****************************/
 .section-service {
   background-color: #fffbf0;
@@ -606,8 +646,24 @@ details[open] .faq-icon {
   width: 2rem;
 }
 
-.grid--footer {
-  grid-template-columns: auto 1fr 1fr 1fr 1fr;
+.grid--footer-1,
+.grid--footer-2,
+.grid--footer-3,
+.grid--footer-4 {
+  margin-bottom: 4.8rem;
+}
+
+.grid--footer-1 {
+  grid-template-columns: auto repeat(2, 1fr);
+}
+.grid--footer-2 {
+  grid-template-columns: auto repeat(3, 1fr);
+}
+.grid--footer-3 {
+  grid-template-columns: auto repeat(4, 1fr);
+}
+.grid--footer-4 {
+  grid-template-columns: auto repeat(5, 1fr);
 }
 
 .logo-col {
