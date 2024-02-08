@@ -1,6 +1,4 @@
-import { PageProps } from "$fresh/server.ts";
-
-export default function Atelier(props: PageProps) {
+export default function Atelier() {
   return (
     <section class="section-service" id="atelier">
       <div class="container">

@@ -1,6 +1,4 @@
-import { PageProps } from "$fresh/server.ts";
-
-export default function ServiceTeam(props: PageProps) {
+export default function ServiceTeam() {
   return (
     <section class="section-service" id="tymovy-koucink">
       <div class="container">

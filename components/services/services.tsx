@@ -10,11 +10,7 @@ export type ServiceCardType = {
   action: MenuLinkType;
 };
 
-export type ServicesProps = {
-  services: ServiceCardType[];
-};
-
-export default function Services(props: ServicesProps) {
+export default function Services() {
   return (
     <section class="section-services" id="nabidka-sluzeb">
       <div class="container">

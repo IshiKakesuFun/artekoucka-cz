@@ -1,7 +1,6 @@
-import { PageProps } from "$fresh/server.ts";
 import { PriVideocamOutline, PriBagCheckOutline } from "@icons";
 
-export default function ServiceIndividual(props: PageProps) {
+export default function ServiceIndividual() {
   return (
     <section class="section-service" id="individualni-koucink">
       <div class="container">
@@ -29,7 +28,7 @@ export default function ServiceIndividual(props: PageProps) {
           <li class="list-item">
             <PriVideocamOutline class="list-icon"></PriVideocamOutline>
             <p class="service-text">
-              Sezení v délce 60 - 90 min probíhá v ateliéru ve Vochově, kde jsou
+              Sezení v délce 60 - 90 min probíhají v ateliéru ve Vochově, kde jsou
               koučovanému k dispozici veškeré pomůcky a zázemí. Rozsah využití
               kreativních technik závisí na vůli klienta. Po skončení dostává
               klient zápis ze sezení.

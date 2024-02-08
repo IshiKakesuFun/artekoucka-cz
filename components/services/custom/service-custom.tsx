@@ -1,7 +1,6 @@
-import { PageProps } from "$fresh/server.ts";
 import { PriCheckmark, PriBagCheckOutline } from "@icons";
 
-export default function ServiceCustom(props: PageProps) {
+export default function ServiceCustom() {
   return (
     <section class="section-service" id="na-klic">
       <div class="container">
