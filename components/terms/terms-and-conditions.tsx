@@ -5,18 +5,56 @@ export default function TermsAndConditions() {
         <h1 class="heading-1">
           Všeobecné obchodní podmínky
         </h1>
-        Jméno podnikatele: Mgr. Marta Sojková
-
-        Místo podnikání: Vochov 3, 330 23 Nýřany
-
-        IČO: 02146401 Zapsaná v živnostenském rejstříku u MÚ Nýřany, Plzeň -
-        sever
-
-        e-mail: marta@artekoucka.cz
-
-        tel.: +420 602 181 097
-
-        (dále také jen „Poskytovatel“)
+        <table class="dlist">
+          <tbody>
+            <tr>
+              <th>
+                Jméno podnikatele:
+              </th>
+              <td>
+                Mgr. Marta Sojková
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Místo podnikání:
+              </th>
+              <td>
+                Vochov 3, 330 23 Nýřany
+              </td>
+            </tr>
+            <tr>
+              <th>
+                IČO:
+              </th>
+              <td>
+                02146401, zapsaná v živnostenském rejstříku u MÚ Nýřany, Plzeň -
+                sever
+              </td>
+            </tr>
+            <tr>
+              <th>
+                e-mail:
+              </th>
+              <td>
+                marta@artekoucka.cz
+              </td>
+            </tr>
+            <tr>
+              <th>
+                telefon:
+              </th>
+              <td>
+                +420 602 181 097
+              </td>
+            </tr>
+            <tr>
+              <th colSpan={2}>
+                (dále také jen „Poskytovatel“)
+              </th>
+            </tr>
+          </tbody>
+        </table>
 
         <ol class="list-i">
           <li>

@@ -112,7 +112,7 @@ h6 {
 }
 
 p {
-  max-width: 70ch;
+  /* max-width: 70ch; */
   text-wrap: pretty;
 }
 /***********************/
@@ -234,6 +234,44 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+}
+
+.list-1,
+.list-i {
+  font-family: "Rubik", sans-serif;
+  color: #4c4c4c;
+}
+.list-i {
+  list-style: upper-roman;
+  list-style-position: inside;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+.list-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  list-style: decimal;
+  list-style-position: inside;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  text-wrap: pretty;
+  margin: 1.6rem 0 3.2rem;
+}
+
+.dlist {
+  text-align: left;
+  border-spacing: 1.6rem;
+  margin-bottom: 4.8rem;
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+.dlist th {
+  font-weight: 500;
 }
 
 .list-item-balance,

@@ -603,6 +603,15 @@ details[open] .faq-icon {
   line-height: 1.8;
   margin-bottom: 1.6rem;
 }
+
+/************************************/
+/* page:vseobecne-obchodni-podminky */
+/************************************/
+.section-terms {
+  background-color: #fffbf0;
+  padding: 0 0 9.6rem 0;
+}
+
 /****************************/
 /* footer                   */
 /****************************/
