@@ -77,8 +77,8 @@ export const defaulFooterNavProps: FooterNavigationProps = {
           href: "/informace-o-zpracovani-osobnich-udaju",
         },
         {
-          title: "Obchodní podmínky",
-          href: "/obchodni-podminky",
+          title: "Všebecné obchodní podmínky",
+          href: "/vseobecne-obchodni-podminky",
         },
       ],
     },

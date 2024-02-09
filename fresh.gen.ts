@@ -10,7 +10,7 @@ import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
 import * as $informace_o_zpracovani_osobnich_udaju from "./routes/informace-o-zpracovani-osobnich-udaju.tsx";
 import * as $o_mne from "./routes/o-mne.tsx";
-import * as $obchodni_podminky from "./routes/obchodni-podminky.tsx";
+import * as $obchodni_podminky from "./routes/vseobecne-obchodni-podminky.tsx";
 import * as $sluzby from "./routes/sluzby.tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import * as $mobile_header from "./islands/mobile-header.tsx";
@@ -27,7 +27,7 @@ const manifest = {
     "./routes/informace-o-zpracovani-osobnich-udaju.tsx":
       $informace_o_zpracovani_osobnich_udaju,
     "./routes/o-mne.tsx": $o_mne,
-    "./routes/obchodni-podminky.tsx": $obchodni_podminky,
+    "./routes/vseobecne-obchodni-podminky.tsx": $obchodni_podminky,
     "./routes/sluzby.tsx": $sluzby,
   },
   islands: {
