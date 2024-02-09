@@ -37,7 +37,9 @@ export default function TermsAndConditions() {
                 e-mail:
               </th>
               <td>
-                marta@artekoucka.cz
+                <a class="link" href="mailto:marta@artekoucka.cz">
+                  marta@artekoucka.cz
+                </a>
               </td>
             </tr>
             <tr>

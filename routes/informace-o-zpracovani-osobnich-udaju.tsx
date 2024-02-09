@@ -3,7 +3,7 @@ import Footer from "@@/footer/footer.tsx";
 import { defaulFooterNavProps } from "@@/footer/footer-nav.tsx";
 import Header, { HeaderProps } from "@@/header/header.tsx";
 import { MenuLinkType } from "@@/header/navigation.tsx";
-import HeroAboutMe from "@@/hero/hero-about-me.tsx";
+import GDPR from "@@/privacy/gdpr.tsx";
 
 export const mainMenu: MenuLinkType[] = [
   { title: "Artekoučink", href: "/#artekoucink" },
@@ -18,13 +18,13 @@ export const mainMenu: MenuLinkType[] = [
   },
 ];
 
-export default function AboutMe(props: PageProps<null>) {
+export default function Privacy(props: PageProps<null>) {
   const headerProps: HeaderProps = { menu: mainMenu };
   return (
     <>
       <Header {...headerProps} />
       <main>
-        <HeroAboutMe />
+        <GDPR />
       </main>
       <Footer {...defaulFooterNavProps} />
     </>
