@@ -22,6 +22,7 @@
     "@io5": "https://deno.land/x/react_icons_io5@1.0.9/mod.ts",
     "@io5/": "https://deno.land/x/react_icons_io5@1.0.9/ico/",
     "@icons": "./components/icons/mod.ts",
+    "~/": "./islands/",
     "_/": "./components/",
     "/": "./",
     "./": "./",

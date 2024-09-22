@@ -13,7 +13,7 @@ import * as $o_mne from "./routes/o-mne.tsx";
 import * as $sluzby from "./routes/sluzby.tsx";
 import * as $vseobecne_obchodni_podminky from "./routes/vseobecne-obchodni-podminky.tsx";
 import * as $Counter from "./islands/Counter.tsx";
-import * as $mobile_header from "./islands/mobile-header.tsx";
+import * as $mobile_navigation from "./islands/mobile-navigation.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -32,7 +32,7 @@ const manifest = {
   },
   islands: {
     "./islands/Counter.tsx": $Counter,
-    "./islands/mobile-header.tsx": $mobile_header,
+    "./islands/mobile-navigation.tsx": $mobile_navigation,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
