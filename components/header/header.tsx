@@ -1,17 +1,18 @@
 import Navigation, { MenuLinkType } from "_/header/navigation.tsx";
+import MobileNavigation from "_/header/mobile-navigation.tsx";
 import Logo from "_/header/logo.tsx";
-import MobileHeader from "/islands/mobile-header.tsx";
 
 export type HeaderProps = {
   sticky?: boolean;
   menu?: MenuLinkType[];
 };
 
-function LargeHeader(props: Omit<HeaderProps, "sticky">) {
+function MenuHeader(props: Omit<HeaderProps, "sticky">) {
   return (
     <div class="header-container">
       <Logo />
       <Navigation {...props} />
+      <MobileNavigation {...props} />
     </div>
   );
 }
@@ -19,8 +20,7 @@ function LargeHeader(props: Omit<HeaderProps, "sticky">) {
 export default function Header(props: HeaderProps) {
   return (
     <header class="header">
-      <LargeHeader {...props} />
-      {/* <MobileHeader {...props} /> */}
+      <MenuHeader {...props} />
     </header>
   );
 }

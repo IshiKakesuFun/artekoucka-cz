@@ -88,6 +88,101 @@
   background-color: #e6c35c;
 }
 
+.mobile-nav {
+  display: none;
+}
+
+.mobile-nav-toggle {
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+/* Hamburger and close icon styling */
+.menu-icon {
+  display: block;
+  width: 3.2rem;
+  height: 0.3rem;
+  background-color: #333;
+  transition: all 0.3s ease;
+  position: relative;
+  cursor: pointer;
+}
+/* Hamburger icon */
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  width: 3.2rem;
+  height: 0.3rem;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+.hamburger::before {
+  top: -1.2rem;
+  left: 0rem;
+}
+
+.hamburger::after {
+  top: 1.2rem;
+  left: 0rem;
+}
+/* Close icon styling */
+.close {
+  background-color: transparent;
+}
+.close::before,
+.close::after {
+  content: "";
+  position: absolute;
+  width: 3.2rem;
+  height: 0.3rem;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+.close::before {
+  transform: rotate(45deg);
+  left: 0rem;
+}
+
+.close::after {
+  transform: rotate(-45deg);
+  left: 0rem;
+}
+
+.mobile-nav-link:hover,
+.mobile-nav-link:active {
+  color: #ccae52;
+}
+
+.mobile-nav-link.nav-current:link,
+.mobile-nav-link.nav-current:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.9rem 0 0.9rem 0;
+  background-color: #fbf0ff;
+}
+
+.mobile-nav-link.nav-current:hover,
+.mobile-nav-link.nav-current:active {
+  background-color: #fffbf0;
+}
+
+.mobile-nav-link.nav-cta:link,
+.mobile-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.9rem 0 0.9rem 0;
+  background-color: #ffd966;
+}
+
+.mobile-nav-link.nav-cta:hover,
+.mobile-nav-link.nav-cta:active {
+  color: #333;
+  background-color: #e6c35c;
+}
+
 /****************************/
 /* hero section             */
 /****************************/
