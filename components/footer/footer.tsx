@@ -1,7 +1,7 @@
-import FooterCopyRight from "@@/footer/footer-copyright.tsx";
-import Address from "@@/footer/address.tsx";
-import FooterNav, { FooterNavigationProps } from "@@/footer/footer-nav.tsx";
-import FooterLogo from "@@/footer/footer-logo.tsx";
+import FooterCopyRight from "_/footer/footer-copyright.tsx";
+import Address from "_/footer/address.tsx";
+import FooterNav, { FooterNavigationProps } from "_/footer/footer-nav.tsx";
+import FooterLogo from "_/footer/footer-logo.tsx";
 
 export default function Footer(props: FooterNavigationProps) {
   return (

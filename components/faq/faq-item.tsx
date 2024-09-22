@@ -1,4 +1,4 @@
-import { FaqType } from "@@/faq/faq.tsx";
+import { FaqType } from "_/faq/faq.tsx";
 import { IoAddCircleOutline, IoRemoveCircleOutline } from "@io5";
 
 export default function FaqItem(item: FaqType) {
@@ -10,9 +10,7 @@ export default function FaqItem(item: FaqType) {
           <IoRemoveCircleOutline class="faq-icon-open"></IoRemoveCircleOutline>
           {item.question}
         </summary>
-        <p class="faq-text">
-          {item.answer}
-        </p>
+        <p class="faq-text">{item.answer}</p>
       </details>
     </div>
   );

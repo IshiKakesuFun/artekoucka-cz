@@ -1,5 +1,5 @@
 import { PriPersonOutline } from "@icons";
-import { ArtekoucinkProps } from "@@/artekoucing/artekoucink.tsx";
+import { ArtekoucinkProps } from "_/artekoucing/artekoucink.tsx";
 
 export const defaulPersonalTopics: string[] = [
   "Jsem pořád v práci, nemám čas na rodinu a koníčky. Jak to vybalancovat?",
@@ -19,9 +19,7 @@ export default function PersonalTopics(props: ArtekoucinkProps) {
       {props.personalTopics.map((item) => (
         <li class="list-item">
           <PriPersonOutline class="list-icon"></PriPersonOutline>
-          <span>
-            {item}
-          </span>
+          <span>{item}</span>
         </li>
       ))}
     </ul>

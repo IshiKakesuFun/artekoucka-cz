@@ -200,7 +200,10 @@ DONE
 
 ### About me
 
+
 ### Footer
+
+SojkAtelier logo
 
 ### Privacy
 

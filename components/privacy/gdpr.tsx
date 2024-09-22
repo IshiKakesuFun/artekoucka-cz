@@ -2,9 +2,7 @@ export default function GDPR() {
   return (
     <section class="section-privacy" id="privacy">
       <div class="container">
-        <h1 class="heading-1">
-          Informace o zpracování osobních údajů (GDPR)
-        </h1>
+        <h1 class="heading-1">Informace o zpracování osobních údajů (GDPR)</h1>
         <ol class="list-i">
           <li>
             Kdo je správce
@@ -12,7 +10,10 @@ export default function GDPR() {
               <li>
                 Jsem Mgr. Marta Sojková, IČO: 02146401, se sídlem Vochov 3,
                 Nýřany, 33023, a jsem provozovatelem webové stránky{" "}
-                <a class="link" href="/">www.artekoucka.cz</a> (dále také „já“).
+                <a class="link" href="/">
+                  www.artekoucka.cz
+                </a>{" "}
+                (dále také „já“).
               </li>
               <li>
                 Vaše osobní údaje zpracovávám jako správce, tj. určuji, jak
@@ -30,7 +31,8 @@ export default function GDPR() {
                 mě kontaktovat na e-mail:{" "}
                 <a class="link" href="mailto:marta@artekoucka.cz">
                   marta@artekoucka.cz
-                </a>.
+                </a>
+                .
               </li>
             </ol>
           </li>
@@ -114,8 +116,7 @@ export default function GDPR() {
                 webových stránek z technologických a bezpečnostních důvodů
                 (dostupnost, škálování, ochrana před útoky, atd.).
               </li>
-              {
-                /* <li>
+              {/* <li>
                 Při procházení mých webových stránek zaznamenávám vaši IP
                 adresu, jak dlouho se na stránce zdržíte, a ze které stránky
                 přicházíte. Používání cookies pro měření návštěvnosti webu a
@@ -129,8 +130,7 @@ export default function GDPR() {
                 režimu, který neumožňuje sbírání osobních údajů. Používání
                 cookies můžete na svém počítači v internetovém prohlížeči
                 zakázat.
-              </li> */
-              }
+              </li> */}
             </ol>
           </li>
           <li>
@@ -194,7 +194,8 @@ export default function GDPR() {
                 mě prostřednictvím e-mailu:{" "}
                 <a class="link" href="mailto:marta@artekoucka.cz">
                   marta@artekoucka.cz
-                </a>.
+                </a>
+                .
               </li>
               <li>
                 Právo na informace
@@ -287,7 +288,8 @@ export default function GDPR() {
                     odběr mých e-mailů vyjádřením tohoto přání na e-mail{" "}
                     <a class="link" href="mailto:marta@artekoucka.cz">
                       marta@artekoucka.cz
-                    </a>.
+                    </a>
+                    .
                   </li>
                 </ol>
               </li>

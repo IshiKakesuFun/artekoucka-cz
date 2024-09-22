@@ -1,5 +1,5 @@
-import { MenuLinkType } from "@@/header/navigation.tsx";
-import FooterNavCol from "@@/footer/footer-nav-col.tsx";
+import { MenuLinkType } from "_/header/navigation.tsx";
+import FooterNavCol from "_/footer/footer-nav-col.tsx";
 
 export type FooterMenuType = {
   heading: string;
@@ -86,9 +86,5 @@ export const defaulFooterNavProps: FooterNavigationProps = {
 };
 
 export default function FooterNav(props: FooterNavigationProps) {
-  return (
-    <>
-      {props.menu?.map((menu) => FooterNavCol(menu))}
-    </>
-  );
+  return <>{props.menu?.map((menu) => FooterNavCol(menu))}</>;
 }

@@ -25,9 +25,14 @@ export default function HeroServices() {
               Jsem profesionální koučka, která miluje ruce umazané od barev. Mám
               kuráž pokládat trefné otázky. Těší mě, když se věci hýbou.
             </h1>
-            <p class="hero-description">
-            </p>
-            <a href="#konzultace-zdarma" class="btn btn--full">Nezávazná konzultace zdarma</a>
+            <p class="hero-description"></p>
+            <a
+              href="https://calendly.com/artekoucka/uvodni-konzultace"
+              target="_blank"
+              class="btn btn--full"
+            >
+              Nezávazná konzultace zdarma
+            </a>
           </div>
         </div>
       </div>

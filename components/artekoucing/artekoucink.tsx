@@ -1,7 +1,7 @@
 import PersonalTopics, {
   defaulPersonalTopics,
-} from "@@/artekoucing/personal-topics.tsx";
-import TeamTopics, { defaultTeamTopics } from "@@/artekoucing/team-topics.tsx";
+} from "_/artekoucing/personal-topics.tsx";
+import TeamTopics, { defaultTeamTopics } from "_/artekoucing/team-topics.tsx";
 
 export type ArtekoucinkProps = {
   personalTopics: string[];
@@ -25,9 +25,8 @@ export default function Artekoucink(props: ArtekoucinkProps) {
               je způsob, jak nalézt řešení v nejrůznějších tématech a oblastech,
               kde si nevíme rady či stojíme na křižovatce. Tato řešení si za
               pomoci zvídavých otázek <strong>kouče</strong> objevuje{" "}
-              <strong>klient sám</strong>{" "}
-              tak, aby respektovala jeho možnosti, schopnosti a byla v souladu s
-              jeho potřebami.
+              <strong>klient sám</strong> tak, aby respektovala jeho možnosti,
+              schopnosti a byla v souladu s jeho potřebami.
             </p>
           </div>
           <div class="artekoucink-box">
@@ -40,9 +39,9 @@ export default function Artekoucink(props: ArtekoucinkProps) {
               <strong>
                 Není však rádcem, mentorem, který by klientovi říkal, co a jak
                 má dělat
-              </strong>. Za výsledek koučování je tak zodpovědný sám klient. Na
-              rozdíl od psychoterapie, která se obrací do minulosti, je celý
-              {" "}
+              </strong>
+              . Za výsledek koučování je tak zodpovědný sám klient. Na rozdíl od
+              psychoterapie, která se obrací do minulosti, je celý{" "}
               <strong>proces zaměřen na pohled do budoucna</strong>.
             </p>
           </div>

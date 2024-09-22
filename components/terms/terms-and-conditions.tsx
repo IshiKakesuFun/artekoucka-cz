@@ -2,40 +2,26 @@ export default function TermsAndConditions() {
   return (
     <section class="section-terms" id="vseobecne-obchodni-podminky">
       <div class="container">
-        <h1 class="heading-1">
-          Všeobecné obchodní podmínky
-        </h1>
+        <h1 class="heading-1">Všeobecné obchodní podmínky</h1>
         <table class="dlist">
           <tbody>
             <tr>
-              <th>
-                Jméno podnikatele:
-              </th>
-              <td>
-                Mgr. Marta Sojková
-              </td>
+              <th>Jméno podnikatele:</th>
+              <td>Mgr. Marta Sojková</td>
             </tr>
             <tr>
-              <th>
-                Místo podnikání:
-              </th>
-              <td>
-                Vochov 3, 330 23 Nýřany
-              </td>
+              <th>Místo podnikání:</th>
+              <td>Vochov 3, 330 23 Nýřany</td>
             </tr>
             <tr>
-              <th>
-                IČO:
-              </th>
+              <th>IČO:</th>
               <td>
                 02146401, zapsaná v živnostenském rejstříku u MÚ Nýřany, Plzeň -
                 sever
               </td>
             </tr>
             <tr>
-              <th>
-                e-mail:
-              </th>
+              <th>e-mail:</th>
               <td>
                 <a class="link" href="mailto:marta@artekoucka.cz">
                   marta@artekoucka.cz
@@ -43,17 +29,11 @@ export default function TermsAndConditions() {
               </td>
             </tr>
             <tr>
-              <th>
-                telefon:
-              </th>
-              <td>
-                +420 602 181 097
-              </td>
+              <th>telefon:</th>
+              <td>+420 602 181 097</td>
             </tr>
             <tr>
-              <th colSpan={2}>
-                (dále také jen „Poskytovatel“)
-              </th>
+              <th colSpan={2}>(dále také jen „Poskytovatel“)</th>
             </tr>
           </tbody>
         </table>
@@ -156,9 +136,7 @@ export default function TermsAndConditions() {
           <li>
             Povinnosti klienta při koučovací spolupráci
             <ol class="list-1">
-              <li>
-                Klient přichází na konzultaci včas.
-              </li>
+              <li>Klient přichází na konzultaci včas.</li>
               <li>
                 Klient určuje téma a cíl konzultace/balíčku konzultací, ke
                 kterému bude spolupráce směřovat.
@@ -176,9 +154,7 @@ export default function TermsAndConditions() {
           <li>
             Zdravotní upozornění a vyloučení odpovědnosti
             <ol class="list-1">
-              <li>
-                Každý uživatel užívá službu na vlastní riziko.
-              </li>
+              <li>Každý uživatel užívá službu na vlastní riziko.</li>
               <li>
                 Poskytovatel neodpovídá za jakékoliv přímé nebo nepřímé
                 majetkové či nemajetkové újmy vzniklé v souvislosti s užíváním
@@ -269,9 +245,7 @@ export default function TermsAndConditions() {
                 nejvíce přibližuje. Neplatností nebo neúčinností jednoho
                 ustanovení není dotčena platnost ostatních ustanovení.
               </li>
-              <li>
-                Tyto obchodní podmínky nabývají účinnosti dne 1. 2. 2024.
-              </li>
+              <li>Tyto obchodní podmínky nabývají účinnosti dne 1. 2. 2024.</li>
             </ol>
           </li>
         </ol>

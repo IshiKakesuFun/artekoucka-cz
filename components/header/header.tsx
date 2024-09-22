@@ -1,5 +1,5 @@
-import Navigation, { MenuLinkType } from "@@/header/navigation.tsx";
-import Logo from "@@/header/logo.tsx";
+import Navigation, { MenuLinkType } from "_/header/navigation.tsx";
+import Logo from "_/header/logo.tsx";
 import MobileHeader from "/islands/mobile-header.tsx";
 
 export type HeaderProps = {

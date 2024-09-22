@@ -1,19 +1,19 @@
 import { PageProps } from "$fresh/server.ts";
-import Hero from "@@/hero/hero.tsx";
-import Footer from "@@/footer/footer.tsx";
-import { defaulFooterNavProps } from "@@/footer/footer-nav.tsx";
-import Header, { HeaderProps } from "@@/header/header.tsx";
-import { MenuLinkType } from "@@/header/navigation.tsx";
+import Hero from "_/hero/hero.tsx";
+import Footer from "_/footer/footer.tsx";
+import { defaulFooterNavProps } from "_/footer/footer-nav.tsx";
+import Header, { HeaderProps } from "_/header/header.tsx";
+import { MenuLinkType } from "_/header/navigation.tsx";
 import Artekoucink, {
   defaultArtekoucinkProps,
-} from "@@/artekoucing/artekoucink.tsx";
-import Services from "@@/services/services.tsx";
-import Faq, { defaultFaqProps } from "@@/faq/faq.tsx";
+} from "_/artekoucing/artekoucink.tsx";
+import Services from "_/services/services.tsx";
+import Faq, { defaultFaqProps } from "_/faq/faq.tsx";
 import Testimonials, {
   defaultTestimonialProps,
-} from "@@/testimonials/testimonials.tsx";
-import AboutMe from "@@/about-me/about-me.tsx";
-import CallToAction from "@@/cta/call-to-action.tsx";
+} from "_/testimonials/testimonials.tsx";
+import AboutMeCard from "../components/about-me/about-me-card.tsx";
+import CallToAction from "_/cta/call-to-action.tsx";
 
 export const mainMenu: MenuLinkType[] = [
   { title: "Artekoučink", href: "/#artekoucink" },
@@ -23,7 +23,8 @@ export const mainMenu: MenuLinkType[] = [
   { title: "O mně", href: "/o-mne" },
   {
     title: "Konzultace zdarma",
-    href: "#konzultace-zdarma",
+    href: "https://calendly.com/artekoucka/uvodni-konzultace",
+    target: "_blank",
     isCallToAction: true,
   },
 ];
@@ -39,8 +40,7 @@ export default function Home(props: PageProps<null>) {
         <Services />
         <Faq {...defaultFaqProps} />
         <Testimonials {...defaultTestimonialProps} />
-        <CallToAction {...props} />
-        <AboutMe />
+        <AboutMeCard />
       </main>
       <Footer {...defaulFooterNavProps} />
     </>

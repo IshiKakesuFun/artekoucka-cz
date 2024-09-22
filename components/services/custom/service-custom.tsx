@@ -8,15 +8,11 @@ export default function ServiceCustom() {
         <ul class="list">
           <li class="list-item">
             <PriCheckmark class="list-icon"></PriCheckmark>
-            <span>
-              Školení efektivní komunikace
-            </span>
+            <span>Školení efektivní komunikace</span>
           </li>
           <li class="list-item">
             <PriCheckmark class="list-icon"></PriCheckmark>
-            <span>
-              Teambuildingová setkání
-            </span>
+            <span>Teambuildingová setkání</span>
           </li>
           <li class="list-item">
             <PriCheckmark class="list-icon"></PriCheckmark>

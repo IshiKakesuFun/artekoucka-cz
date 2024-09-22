@@ -26,14 +26,20 @@ export default function Hero() {
               odemknutí vašeho potenciálu.
             </h1>
             <p class="hero-description">
-              Otevřete svou mysl v porostorách výtvarného ateliéru. Zde
+              Otevřete svou mysl v prostorách výtvarného ateliéru. Zde
               neexistují chyby, pouze příležitosti k dalšímu zkoumání a
               objevování. Vaše paleta je nekonečná, tak jako vaše schopnost
               tvořit. Vyjděte za hranice obvyklého. Najděte inspiraci v
               nečekaných zdrojích. Objevte nová řešení pro individální i týmový
               růst.
             </p>
-            <a href="#konzultace-zdarma" class="btn btn--full">Nezávazná konzultace zdarma</a>
+            <a
+              href="https://calendly.com/artekoucka/uvodni-konzultace"
+              target="_blank"
+              class="btn btn--full"
+            >
+              Nezávazná konzultace zdarma
+            </a>
           </div>
         </div>
       </div>

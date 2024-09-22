@@ -1,4 +1,4 @@
-import FaqColumn from "@@/faq/faq-column.tsx";
+import FaqColumn from "_/faq/faq-column.tsx";
 
 export type FaqType = {
   question: string;

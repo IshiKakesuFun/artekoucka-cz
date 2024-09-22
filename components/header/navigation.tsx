@@ -3,6 +3,7 @@ export type MenuLinkType = {
   href: string;
   isCallToAction?: boolean;
   isCurrent?: boolean;
+  target?: string;
 };
 
 export type NavigationProps = {
@@ -12,14 +13,39 @@ export type NavigationProps = {
 function MenuItem(item: MenuLinkType) {
   return (
     <li>
-      {!item.isCallToAction && !item.isCurrent && (
-        <a class="main-nav-link" href={item.href}>{item.title}</a>
+      {!item.isCallToAction && !item.isCurrent && item.target && (
+        <a class="main-nav-link" href={item.href} target={item.target}>
+          {item.title}
+        </a>
       )}
-      {!item.isCallToAction && item.isCurrent && (
-        <a class="main-nav-link nav-current" href={item.href}>{item.title}</a>
+      {!item.isCallToAction && !item.isCurrent && !item.target && (
+        <a class="main-nav-link" href={item.href}>
+          {item.title}
+        </a>
       )}
-      {item.isCallToAction && (
-        <a class="main-nav-link nav-cta" href={item.href}>{item.title}</a>
+      {!item.isCallToAction && item.isCurrent && item.target && (
+        <a
+          class="main-nav-link nav-current"
+          href={item.href}
+          target={item.target}
+        >
+          {item.title}
+        </a>
+      )}
+      {!item.isCallToAction && item.isCurrent && !item.target && (
+        <a class="main-nav-link nav-current" href={item.href}>
+          {item.title}
+        </a>
+      )}
+      {item.isCallToAction && item.target && (
+        <a class="main-nav-link nav-cta" href={item.href} target={item.target}>
+          {item.title}
+        </a>
+      )}
+      {item.isCallToAction && !item.target && (
+        <a class="main-nav-link nav-cta" href={item.href}>
+          {item.title}
+        </a>
       )}
     </li>
   );
@@ -27,9 +53,7 @@ function MenuItem(item: MenuLinkType) {
 export default function Navigation(props: NavigationProps) {
   return (
     <nav class="main-nav">
-      <ul class="main-nav-list">
-        {props.menu?.map((item) => MenuItem(item))}
-      </ul>
+      <ul class="main-nav-list">{props.menu?.map((item) => MenuItem(item))}</ul>
     </nav>
   );
 }

@@ -1,4 +1,4 @@
-import { PriLogoLinkedin } from "@icons";
+import { PriLogoLinkedin, PriLogoSojkAtelier } from "@icons";
 
 export default function SocialLinks() {
   return (
@@ -11,12 +11,6 @@ export default function SocialLinks() {
             target="_blank"
           >
             <PriLogoLinkedin class="social-icon"></PriLogoLinkedin>
-          </a>
-        </li>
-        <li>
-          <a href="https://sojkatelier.cz" target="_blank" class="footer-link">
-            <PriLogoLinkedin class="social-icon">
-            </PriLogoLinkedin>
           </a>
         </li>
       </ul>

@@ -25,9 +25,12 @@ export default function HeroAboutMe() {
               Zažijte koučink, kde barvy nejsou jen odstíny, ale klíče k
               odemknutí vašeho potenciálu.
             </h1>
-            <p class="hero-description">
-            </p>
-            <a href="#konzultace-zdarma" class="btn btn--full">
+            <p class="hero-description"></p>
+            <a
+              href="https://calendly.com/artekoucka/uvodni-konzultace"
+              target="_blank"
+              class="btn btn--full"
+            >
               Nezávazná konzultace zdarma
             </a>
           </div>

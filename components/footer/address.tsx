@@ -4,7 +4,8 @@ export default function Address() {
       <p class="footer-heading">Kontakt</p>
       <address class="contacts">
         <p class="address">
-          Mgr. Marta Sojková, MBA<br />
+          Mgr. Marta Sojková, MBA
+          <br />
           Vochov&nbsp;3, 330&nbsp;23
         </p>
         <p class="address">

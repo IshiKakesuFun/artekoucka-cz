@@ -1,9 +1,5 @@
-import { MenuLinkType } from "@@/header/navigation.tsx";
-import {
-  PriCheckmarkDone,
-  PriCheckmark,
-  PriClose
-} from "@icons";
+import { MenuLinkType } from "_/header/navigation.tsx";
+import { PriCheckmarkDone, PriCheckmark, PriClose } from "@icons";
 
 export type ServiceCardType = {
   info: MenuLinkType;
@@ -55,18 +51,15 @@ export default function Services() {
                   </span>
                 </li>
                 <li class="list-item">
-                  <PriCheckmarkDone class="list-icon list-icon--green">
-                  </PriCheckmarkDone>
+                  <PriCheckmarkDone class="list-icon list-icon--green"></PriCheckmarkDone>
                   <span>V ateliéru s možností využití kreativních technik</span>
                 </li>
                 <li class="list-item">
-                  <PriCheckmark class="list-icon list-icon--green">
-                  </PriCheckmark>
+                  <PriCheckmark class="list-icon list-icon--green"></PriCheckmark>
                   <span>U klienta</span>
                 </li>
                 <li class="list-item">
-                  <PriCheckmark class="list-icon list-icon--green">
-                  </PriCheckmark>
+                  <PriCheckmark class="list-icon list-icon--green"></PriCheckmark>
                   <span>On-line</span>
                 </li>
                 <li class="list-item">
@@ -78,7 +71,11 @@ export default function Services() {
               <a href="/sluzby/#individualni-koucink" class="btn btn--outline">
                 Zjistit více &rarr;
               </a>
-              <a href="#konzultace-zdarma" class="btn btn--full">
+              <a
+                href="https://calendly.com/artekoucka/uvodni-konzultace"
+                target="_blank"
+                class="btn btn--full"
+              >
                 Chci konzultaci zdarma
               </a>
             </div>
@@ -128,18 +125,15 @@ export default function Services() {
                   </span>
                 </li>
                 <li class="list-item">
-                  <PriCheckmarkDone class="list-icon list-icon--green">
-                  </PriCheckmarkDone>
+                  <PriCheckmarkDone class="list-icon list-icon--green"></PriCheckmarkDone>
                   <span>V ateliéru s možností využití kreativních technik</span>
                 </li>
                 <li class="list-item">
-                  <PriCheckmark class="list-icon list-icon--green">
-                  </PriCheckmark>
+                  <PriCheckmark class="list-icon list-icon--green"></PriCheckmark>
                   <span>U klienta</span>
                 </li>
                 <li class="list-item">
-                  <PriClose class="list-icon list-icon--red">
-                  </PriClose>
+                  <PriClose class="list-icon list-icon--red"></PriClose>
                   <span>On-line</span>
                 </li>
                 <li class="list-item">
@@ -151,7 +145,11 @@ export default function Services() {
               <a href="/sluzby/#tymovy-koucink" class="btn btn--outline">
                 Zjistit více &rarr;
               </a>
-              <a href="#konzultace-zdarma" class="btn btn--full">
+              <a
+                href="https://calendly.com/artekoucka/uvodni-konzultace"
+                target="_blank"
+                class="btn btn--full"
+              >
                 Chci konzultaci zdarma
               </a>
             </div>
@@ -191,28 +189,21 @@ export default function Services() {
                   </span>
                 </li>
                 <li class="list-item">
-                  <span>
-                    Školení efektivní komunikace
-                  </span>
+                  <span>Školení efektivní komunikace</span>
                 </li>
                 <li class="list-item">
-                  <span>
-                    Teambuildingová setkání, firemní večírky a akce
-                  </span>
+                  <span>Teambuildingová setkání, firemní večírky a akce</span>
                 </li>
                 <li class="list-item">
-                  <PriCheckmarkDone class="list-icon list-icon--green">
-                  </PriCheckmarkDone>
+                  <PriCheckmarkDone class="list-icon list-icon--green"></PriCheckmarkDone>
                   <span>V ateliéru s možností využití kreativních technik</span>
                 </li>
                 <li class="list-item">
-                  <PriCheckmark class="list-icon list-icon--green">
-                  </PriCheckmark>
+                  <PriCheckmark class="list-icon list-icon--green"></PriCheckmark>
                   <span>U klienta</span>
                 </li>
                 <li class="list-item">
-                  <PriClose class="list-icon list-icon--red">
-                  </PriClose>
+                  <PriClose class="list-icon list-icon--red"></PriClose>
                   <span>On-line</span>
                 </li>
                 <li class="list-item">
@@ -224,7 +215,11 @@ export default function Services() {
               <a href="/sluzby/#na-klic" class="btn btn--outline">
                 Zjistit více &rarr;
               </a>
-              <a href="#konzultace-zdarma" class="btn btn--full">
+              <a
+                href="https://calendly.com/artekoucka/uvodni-konzultace"
+                target="_blank"
+                class="btn btn--full"
+              >
                 Chci konzultaci zdarma
               </a>
             </div>

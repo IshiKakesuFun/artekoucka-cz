@@ -1,11 +1,9 @@
-import { TestimonialType } from "@@/testimonials/testimonials.tsx";
+import { TestimonialType } from "_/testimonials/testimonials.tsx";
 
 export default function Testimonial(item: TestimonialType) {
   return (
     <figure class="testimonial">
-      <blockquote class="testimonial-text">
-        {item.text}
-      </blockquote>
+      <blockquote class="testimonial-text">{item.text}</blockquote>
       <div class="testimonial-box">
         <picture>
           <source
@@ -28,9 +26,7 @@ export default function Testimonial(item: TestimonialType) {
         </picture>
         <p class="testimonial-name">
           {item.name},<br />
-          <span>
-            {item.role}
-          </span>
+          <span>{item.role}</span>
         </p>
       </div>
     </figure>

@@ -1,5 +1,5 @@
 import { PriPeopleOutline } from "@icons";
-import { ArtekoucinkProps } from "@@/artekoucing/artekoucink.tsx";
+import { ArtekoucinkProps } from "_/artekoucing/artekoucink.tsx";
 
 export const defaultTeamTopics: string[] = [
   "Čeká nás nový projekt a nevíme, jak s ním naložit.",
@@ -19,9 +19,7 @@ export default function TeamTopics(props: ArtekoucinkProps) {
       {props.teamTopics.map((item) => (
         <li class="list-item">
           <PriPeopleOutline class="list-icon"></PriPeopleOutline>
-          <span>
-            {item}
-          </span>
+          <span>{item}</span>
         </li>
       ))}
     </ul>

@@ -1,8 +1,8 @@
-import Footer from "@@/footer/footer.tsx";
-import { defaulFooterNavProps } from "@@/footer/footer-nav.tsx";
-import Header, { HeaderProps } from "@@/header/header.tsx";
-import { MenuLinkType } from "@@/header/navigation.tsx";
-import TermsAndConditions from "@@/terms/terms-and-conditions.tsx";
+import Footer from "_/footer/footer.tsx";
+import { defaulFooterNavProps } from "_/footer/footer-nav.tsx";
+import Header, { HeaderProps } from "_/header/header.tsx";
+import { MenuLinkType } from "_/header/navigation.tsx";
+import TermsAndConditions from "_/terms/terms-and-conditions.tsx";
 
 export const mainMenu: MenuLinkType[] = [
   { title: "Artekoučink", href: "/#artekoucink" },
@@ -12,7 +12,8 @@ export const mainMenu: MenuLinkType[] = [
   { title: "O mně", href: "/o-mne" },
   {
     title: "Konzultace zdarma",
-    href: "/#konzultace-zdarma",
+    href: "https://calendly.com/artekoucka/uvodni-konzultace",
+    target: "_blank",
     isCallToAction: true,
   },
 ];
