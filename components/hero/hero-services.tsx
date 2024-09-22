@@ -1,3 +1,4 @@
+import { PriCalendarOutline } from "@icons";
 export default function HeroServices() {
   return (
     <section class="section-hero">
@@ -32,6 +33,7 @@ export default function HeroServices() {
               class="btn btn--full"
             >
               Nezávazná konzultace zdarma
+              <PriCalendarOutline class="icon-right"></PriCalendarOutline>
             </a>
           </div>
         </div>
