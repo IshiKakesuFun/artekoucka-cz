@@ -237,6 +237,7 @@ p {
 }
 
 .list-1,
+.list-ii,
 .list-i {
   font-family: "Rubik", sans-serif;
   color: #4c4c4c;
@@ -261,6 +262,19 @@ p {
   line-height: 1.2;
   text-wrap: pretty;
   margin: 1.6rem 0 3.2rem;
+}
+.list-ii {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  list-style: lower-roman;
+  list-style-position: inside;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  text-wrap: pretty;
+  margin: 1.6rem 0;
 }
 
 .dlist {
