@@ -11,6 +11,7 @@ export { type IconBasePropsDual } from "_/icons/icon-base-props-dual.ts";
 export { PriLogoDenoFresh } from "_/icons/pri-logo-deno-fresh.ts";
 export { PriLogoLinkedin } from "_/icons/pri-logo-linkedin.ts";
 export { PriBagCheckOutline } from "_/icons/pri-bag-check-outline.ts";
+export { PriCalendarOutline } from "_/icons/pri-calendar-outline.ts";
 export { PriClose } from "_/icons/pri-close.ts";
 export { PriCloseCircle } from "_/icons/pri-close-circle.ts";
 export { PriCloseOutline } from "_/icons/pri-close-outline.ts";
@@ -24,4 +25,3 @@ export { PriVideocamOutline } from "_/icons/pri-videocam-outline.ts";
 export { PriLogoArtekoucka } from "_/icons/pri-logo-artekoucka.ts";
 export { PriKakesuFun } from "_/icons/pri-kakesu-fun.ts";
 export { PriLogoSojkAtelier } from "_/icons/pri-logo-sojk-atelier.ts";
-

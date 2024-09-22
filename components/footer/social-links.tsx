@@ -13,6 +13,16 @@ export default function SocialLinks() {
             <PriLogoLinkedin class="social-icon"></PriLogoLinkedin>
           </a>
         </li>
+        <li>
+          <a
+            class="footer-link"
+            href="https://www.sojkatelier.cz"
+            target="_blank"
+            title="SojkAtelier"
+          >
+            <PriLogoSojkAtelier class="social-icon"></PriLogoSojkAtelier>
+          </a>
+        </li>
       </ul>
     </div>
   );

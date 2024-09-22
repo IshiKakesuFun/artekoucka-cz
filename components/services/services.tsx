@@ -1,5 +1,10 @@
 import { MenuLinkType } from "_/header/navigation.tsx";
-import { PriCheckmarkDone, PriCheckmark, PriClose } from "@icons";
+import {
+  PriCheckmarkDone,
+  PriCheckmark,
+  PriClose,
+  PriCalendarOutline,
+} from "@icons";
 
 export type ServiceCardType = {
   info: MenuLinkType;
@@ -75,8 +80,13 @@ export default function Services() {
                 href="https://calendly.com/artekoucka/uvodni-konzultace"
                 target="_blank"
                 class="btn btn--full"
+                title="Chci konzultaci zdarma"
               >
-                Chci konzultaci zdarma
+                Konzultace{" "}
+                <span class="nowrap">
+                  zdarma
+                  <PriCalendarOutline class="icon-right"></PriCalendarOutline>
+                </span>
               </a>
             </div>
           </div>
@@ -149,8 +159,13 @@ export default function Services() {
                 href="https://calendly.com/artekoucka/uvodni-konzultace"
                 target="_blank"
                 class="btn btn--full"
+                title="Chci konzultaci zdarma"
               >
-                Chci konzultaci zdarma
+                Konzultace{" "}
+                <span class="nowrap">
+                  zdarma
+                  <PriCalendarOutline class="icon-right"></PriCalendarOutline>
+                </span>
               </a>
             </div>
           </div>
@@ -219,8 +234,13 @@ export default function Services() {
                 href="https://calendly.com/artekoucka/uvodni-konzultace"
                 target="_blank"
                 class="btn btn--full"
+                title="Chci konzultaci zdarma"
               >
-                Chci konzultaci zdarma
+                Konzultace{" "}
+                <span class="nowrap">
+                  zdarma
+                  <PriCalendarOutline class="icon-right"></PriCalendarOutline>
+                </span>
               </a>
             </div>
           </div>

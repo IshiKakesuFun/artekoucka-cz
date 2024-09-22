@@ -299,6 +299,14 @@ p {
   text-align: left;
 }
 
+.icon-right {
+  margin-left: 1.2rem;
+}
+
+.icon-left {
+  margin-right: 1.2rem;
+}
+
 .list-icon {
   width: 3rem;
   min-width: 3rem;
@@ -342,4 +350,8 @@ strong {
 .link:hover,
 .link:active {
   color: #ccae52;
+}
+
+.nowrap {
+  white-space: nowrap;
 }

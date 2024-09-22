@@ -54,7 +54,7 @@ export default function Faq(props: FaqProps) {
   return (
     <section class="section-faq" id="caste-dotazy">
       <div class="container">
-        <h2 class="faq-heading">Časté dotazy</h2>
+        <h2 class="heading-2">Časté dotazy</h2>
         <div class="faqs" id="accordionFaqs">
           {Array.from({ length: props.column }).map((_item, index) => (
             <FaqColumn {...props} column={index} />

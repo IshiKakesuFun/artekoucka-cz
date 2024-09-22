@@ -67,13 +67,11 @@ export default function Artekoucink(props: ArtekoucinkProps) {
         </div>
         <div class="artekoucink-topics" id="obvykla-temata">
           <div class="artekoucink-box">
-            <h3 class="heading-3">
-              Příklady témat, se kterými klienti přichází
-            </h3>
+            <h3 class="heading-3">Příklady témat, která řeší klienti</h3>
             <PersonalTopics {...props} />
           </div>
           <div class="artekoucink-box">
-            <h3 class="heading-3">Příklady témat, která řeší pracovní týmy</h3>
+            <h3 class="heading-3">Příklady témat, která řeší týmy</h3>
             <TeamTopics {...props} />
           </div>
         </div>
