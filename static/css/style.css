@@ -111,7 +111,7 @@
 .mobile-nav-toggle,
 .mobile-nav-toggle:link,
 .mobile-nav-toggle:visited {
-  display: inline-block;
+  display: none;
 
   background-color: #fbf0ff;
   color: #333;

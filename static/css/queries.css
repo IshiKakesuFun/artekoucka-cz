@@ -125,6 +125,12 @@
     /* 7px/16px = 43.75% */
     font-size: 43.75%;
   }
+  .main-nav {
+    display: none;
+  }
+  .mobile-nav-toggle {
+    display: inline-block;
+  }
 }
 
 /*****************************************************/
@@ -137,4 +143,3 @@
     font-size: 43.75%;
   }
 }
-

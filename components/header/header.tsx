@@ -1,5 +1,5 @@
 import Navigation, { MenuLinkType } from "_/header/navigation.tsx";
-// import MobileNavigation from "~/mobile-navigation.tsx";
+import MobileNavigation from "~/mobile-navigation.tsx";
 import Logo from "_/header/logo.tsx";
 
 export type HeaderProps = {
@@ -12,7 +12,7 @@ function MenuHeader(props: Omit<HeaderProps, "sticky">) {
     <div class="header-container">
       <Logo />
       <Navigation {...props} />
-      {/*<MobileNavigation {...props} />*/}
+      <MobileNavigation {...props} />
     </div>
   );
 }
