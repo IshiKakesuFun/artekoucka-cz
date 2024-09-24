@@ -7,28 +7,28 @@ export default function Competence() {
         <h3 class="heading-3">Vzdělání v koučování</h3>
         <ul class="list">
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2024 - <strong>Axia mentoring koučů</strong> (Axia Management
               Academy, z.ú.)
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2023 – 2024 – Výcvik <strong>Týmové koučování</strong> (Akademie
               Libchavy, s.r.o., akreditováno ICF)
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2023 – <strong>Týmový koučink a facilitace v praxi</strong> (16
               hod, Axia Management Academy, z.ú.)
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2022 – 2023 – <strong>MBA</strong> studium{" "}
               <strong>Profesionální koučování</strong> (AxiaManagement, z.ú.,
@@ -39,7 +39,7 @@ export default function Competence() {
         <h3 class="heading-3">Obecné vzdělání</h3>
         <ul class="list">
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2011 – 2013 ZČU v Plzni –{" "}
               <strong>
@@ -49,7 +49,7 @@ export default function Competence() {
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2011 – 2012 ZČU v Plzni – Studium <strong>Arteterapie</strong> pro
               oblast školství a sociální sféry (165 hod, akreditováno Radou CŽV
@@ -57,7 +57,7 @@ export default function Competence() {
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2008 – 2011 ZČU v Plzni –{" "}
               <strong>Psychologie se zaměřením na vzdělávání</strong> – Bc.
@@ -67,7 +67,7 @@ export default function Competence() {
         <h3 class="heading-3">Další vzdělání, semináře a kurzy</h3>
         <ul class="list">
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2021 – 2022 –{" "}
               <strong>
@@ -77,14 +77,14 @@ export default function Competence() {
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2021 – <strong>Výtvarné hry pro školy a školky</strong> (1,5 hod,
               Radka Rubešová, online)
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2021 –{" "}
               <strong>
@@ -94,7 +94,7 @@ export default function Competence() {
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2020 – 2021 –{" "}
               <strong>Manažer se zaměřením na neziskový sektor</strong> (180
@@ -103,7 +103,7 @@ export default function Competence() {
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2020 –{" "}
               <strong>Nadchněte děti pro tvoření pro pedagogy a lektory</strong>{" "}
@@ -111,7 +111,7 @@ export default function Competence() {
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2019 –{" "}
               <strong>
@@ -121,55 +121,55 @@ export default function Competence() {
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2019 – <strong>Emoční inteligence a práce se stresem</strong> (6
               hod, Síť pro rodinu, z. s., Plzeň)
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2019 – <strong>Efektivní komunikace a řešení konfliktů</strong> (6
               hod, Síť pro rodinu, z. s., Plzeň)
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2019 – <strong>Dry brush</strong> (KK Serafin, s. r. o., Praha)
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2015 – <strong>Pastel – speciální efekty</strong> (KK Serafin, s.
               r. o., Praha)
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2014 – <strong>Digitální fotografie/základy</strong> (program
               celoživotního vzdělávání ZČU, akreditováno ZČU)
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2014 – <strong>Kurz malování akvarelem</strong> (16 hod, KK
               Serafin, s. r. o., Praha)
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2014 – <strong>Pastel</strong> (8 hod, KK Serafin, s. r. o.,
               Praha)
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2013 –{" "}
               <strong>
@@ -180,7 +180,7 @@ export default function Competence() {
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2013 –{" "}
               <strong>
@@ -190,7 +190,7 @@ export default function Competence() {
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2013 –{" "}
               <strong>Celostátní setkání učitelů výtvarných oborů ZUŠ</strong>{" "}
@@ -198,7 +198,7 @@ export default function Competence() {
             </p>
           </li>
           <li class="list-item">
-            <PriCheckmark class="list-icon"></PriCheckmark>
+            <PriCheckmark class="list-icon" />
             <p class="competence-text">
               2011 – <strong>Malování na hedvábí – základy I.</strong> (4 hod,
               Hobby Kohout, Plzeň akreditováno MŠMT
