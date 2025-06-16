@@ -19,7 +19,7 @@ export const mainMenu: MenuLinkType[] = [
   },
 ];
 
-export default function Privacy(props: PageProps<null>) {
+export default function Privacy(_props: PageProps<null>) {
   const headerProps: HeaderProps = { menu: mainMenu };
   return (
     <>

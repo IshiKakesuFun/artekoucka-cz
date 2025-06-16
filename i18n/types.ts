@@ -1,3 +1,3 @@
-import translation from "/i18n/cs.json" assert { type: "json" };
+import translation from "/i18n/cs.json" with { type: "json" };
 
 export type Translation = typeof translation;

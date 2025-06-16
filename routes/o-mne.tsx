@@ -3,7 +3,7 @@ import Footer from "_/footer/footer.tsx";
 import { defaulFooterNavProps } from "_/footer/footer-nav.tsx";
 import Header, { HeaderProps } from "_/header/header.tsx";
 import { MenuLinkType } from "_/header/navigation.tsx";
-import CallToAction from "_/cta/call-to-action.tsx";
+// import CallToAction from "_/cta/call-to-action.tsx";
 import HeroAboutMe from "_/hero/hero-about-me.tsx";
 import AboutMe from "_/about-me/about-me.tsx";
 import Competence from "_/about-me/competence.tsx";
@@ -22,7 +22,7 @@ export const mainMenu: MenuLinkType[] = [
   },
 ];
 
-export default function AboutMePage(props: PageProps<null>) {
+export default function AboutMePage(_props: PageProps<null>) {
   const headerProps: HeaderProps = { menu: mainMenu };
   return (
     <>

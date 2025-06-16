@@ -6,7 +6,13 @@ export default function FaqColumn(props: FaqProps) {
     <div class="faq-column">
       {props.faqs
         ?.filter((f) => f.column == props.column)
-        .map((item, index) => <FaqItem {...item} index={index} />)}
+        .map((item, index) => (
+          <FaqItem
+            key={`faq-${props.column}-${index}`}
+            {...item}
+            index={index}
+          />
+        ))}
     </div>
   );
 }

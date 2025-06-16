@@ -1,6 +1,6 @@
 import { PageProps } from "$fresh/server.ts";
 
-export default function CallToAction(props: PageProps) {
+export default function CallToAction(_props: PageProps) {
   return (
     <section class="section-cta" id="konzultace-zdarma">
       <div class="container">
@@ -14,7 +14,8 @@ export default function CallToAction(props: PageProps) {
               být přínosná. Anebo mi rovnou zavolejte na{" "}
               <a class="cta-link" href="tel:+420602181097">
                 +420&nbsp;602&nbsp;181&nbsp;097
-              </a>.
+              </a>
+              .
             </p>
 
             <form class="cta-form" name="sign-up">
@@ -54,15 +55,16 @@ export default function CallToAction(props: PageProps) {
                 </select>
               </div>
 
-              <button class="btn btn--form">Objednat konzultaci</button>
+              <button type="submit" class="btn btn--form">
+                Objednat konzultaci
+              </button>
             </form>
           </div>
           <div
             class="cta-img-box"
             role="img"
             aria-label="Artekoučka Marta Sojková mávající poznámkovým blokem v ataliéru"
-          >
-          </div>
+          ></div>
         </div>
       </div>
     </section>

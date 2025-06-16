@@ -12,8 +12,8 @@ import Faq, { defaultFaqProps } from "_/faq/faq.tsx";
 import Testimonials, {
   defaultTestimonialProps,
 } from "_/testimonials/testimonials.tsx";
-import AboutMeCard from "../components/about-me/about-me-card.tsx";
-import CallToAction from "_/cta/call-to-action.tsx";
+import AboutMeCard from "_/about-me/about-me-card.tsx";
+// import CallToAction from "_/cta/call-to-action.tsx";
 
 export const mainMenu: MenuLinkType[] = [
   { title: "Artekoučink", href: "/#artekoucink" },
@@ -29,7 +29,7 @@ export const mainMenu: MenuLinkType[] = [
   },
 ];
 
-export default function Home(props: PageProps<null>) {
+export default function Home(_props: PageProps<null>) {
   const headerProps: HeaderProps = { menu: mainMenu };
   return (
     <>
