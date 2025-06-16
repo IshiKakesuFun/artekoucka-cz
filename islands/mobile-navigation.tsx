@@ -73,7 +73,7 @@ function Hamburger() {
 
   return (
     /* Hamburger/Close button */
-    <button class="mobile-nav-toggle" onClick={toggleMenu}>
+    <button type="button" class="mobile-nav-toggle" onClick={toggleMenu}>
       <span
         class={menuOpenSignal.value ? "menu-icon close" : "menu-icon hamburger"}
       ></span>

@@ -1,6 +1,6 @@
 import { PageProps } from "$fresh/server.ts";
 import Footer from "_/footer/footer.tsx";
-import { defaulFooterNavProps } from "_/footer/footer-nav.tsx";
+import { defaultFooterNavProps } from "_/footer/footer-nav.tsx";
 import Header, { HeaderProps } from "_/header/header.tsx";
 import { MenuLinkType } from "_/header/navigation.tsx";
 import GDPR from "_/privacy/gdpr.tsx";
@@ -19,7 +19,7 @@ export const mainMenu: MenuLinkType[] = [
   },
 ];
 
-export default function Privacy(props: PageProps<null>) {
+export default function Privacy(_props: PageProps<null>) {
   const headerProps: HeaderProps = { menu: mainMenu };
   return (
     <>
@@ -27,7 +27,7 @@ export default function Privacy(props: PageProps<null>) {
       <main>
         <GDPR />
       </main>
-      <Footer {...defaulFooterNavProps} />
+      <Footer {...defaultFooterNavProps} />
     </>
   );
 }

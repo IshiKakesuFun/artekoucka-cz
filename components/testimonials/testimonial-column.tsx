@@ -6,7 +6,12 @@ export default function TestimonialColumn(props: TestimonialProps) {
     <div class="testimonial-column">
       {props.testimonials
         ?.filter((f) => f.column == props.column)
-        .map((item) => <Testimonial {...item} />)}
+        .map((item, index) => (
+          <Testimonial
+            key={`testimonial-${props.column}-${index}-${item.name}`}
+            {...item}
+          />
+        ))}
     </div>
   );
 }

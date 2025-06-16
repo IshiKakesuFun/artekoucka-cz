@@ -11,7 +11,7 @@ export type FooterNavigationProps = {
   menu?: FooterMenuType[];
 };
 
-export const defaulFooterNavProps: FooterNavigationProps = {
+export const defaultFooterNavProps: FooterNavigationProps = {
   menu: [
     {
       heading: "Artekoučka",

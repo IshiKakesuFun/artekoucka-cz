@@ -1,7 +1,7 @@
 import { PageProps } from "$fresh/server.ts";
 import Hero from "_/hero/hero.tsx";
 import Footer from "_/footer/footer.tsx";
-import { defaulFooterNavProps } from "_/footer/footer-nav.tsx";
+import { defaultFooterNavProps } from "_/footer/footer-nav.tsx";
 import Header, { HeaderProps } from "_/header/header.tsx";
 import { MenuLinkType } from "_/header/navigation.tsx";
 import Artekoucink, {
@@ -12,8 +12,8 @@ import Faq, { defaultFaqProps } from "_/faq/faq.tsx";
 import Testimonials, {
   defaultTestimonialProps,
 } from "_/testimonials/testimonials.tsx";
-import AboutMeCard from "../components/about-me/about-me-card.tsx";
-import CallToAction from "_/cta/call-to-action.tsx";
+import AboutMeCard from "_/about-me/about-me-card.tsx";
+// import CallToAction from "_/cta/call-to-action.tsx";
 
 export const mainMenu: MenuLinkType[] = [
   { title: "Artekoučink", href: "/#artekoucink" },
@@ -29,7 +29,7 @@ export const mainMenu: MenuLinkType[] = [
   },
 ];
 
-export default function Home(props: PageProps<null>) {
+export default function Home(_props: PageProps<null>) {
   const headerProps: HeaderProps = { menu: mainMenu };
   return (
     <>
@@ -42,7 +42,7 @@ export default function Home(props: PageProps<null>) {
         <Testimonials {...defaultTestimonialProps} />
         <AboutMeCard />
       </main>
-      <Footer {...defaulFooterNavProps} />
+      <Footer {...defaultFooterNavProps} />
     </>
   );
 }

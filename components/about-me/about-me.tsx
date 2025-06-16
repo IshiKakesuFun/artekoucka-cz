@@ -1,15 +1,15 @@
 export default function AboutMe() {
   return (
-    <section class="section-about-me" id="about-e">
+    <section class="section-about-me" id="about-me">
       <div class="container">
         <h2 class="heading-2">O mně</h2>
         <a href="https://coachingfederation.org/" target="_blank">
           <picture>
-            <source srcset={"images/about-me/icf.png"} type="image/png" />
+            <source srcset="images/about-me/icf.png" type="image/png" />
             <img
               class="about-me-icf-img"
-              src={"images/about-me/icf.png"}
-              alt={"Logo International Coaching Federation"}
+              src="images/about-me/icf.png"
+              alt="Logo International Coaching Federation"
             />
           </picture>
         </a>
