@@ -2,10 +2,13 @@
 /**
  * SEO tests - kritické pro business visibility a Google ranking
  */
-import { assertEquals, assertExists, waitForServer } from "../setup.ts";
+import { assertEquals, assertExists } from "../setup.ts";
 
 // Helper funkce pro extrakci meta tagů
-const extractMetaContent = (html: string, name: string): string | null => {
+const extractMetaContent = (
+  html: string,
+  name: string,
+): string | undefined | null => {
   const regex = new RegExp(
     `<meta[^>]+name=["']${name}["'][^>]*content=["']([^"']+)["']`,
     "i",
@@ -14,9 +17,9 @@ const extractMetaContent = (html: string, name: string): string | null => {
   return match ? match[1] : null;
 };
 
-const extractTitle = (html: string): string | null => {
+const extractTitle = (html: string): string | undefined | null => {
   const match = html.match(/<title[^>]*>([^<]+)<\/title>/i);
-  return match ? match[1].trim() : null;
+  return match ? match[1]?.trim() : null;
 };
 
 Deno.test("SEO - Homepage has complete meta tags", async () => {
@@ -250,13 +253,13 @@ Deno.test("SEO - Images have proper alt attributes", async () => {
 
     if (imgMatches) {
       let imagesWithAlt = 0;
-      let imagesTotal = imgMatches.length;
+      const imagesTotal = imgMatches.length;
 
       imgMatches.forEach((imgTag, index) => {
         const altMatch = imgTag.match(/alt=["']([^"']*)["']/);
 
         if (altMatch) {
-          const altText = altMatch[1];
+          const altText = altMatch[1] || "";
           assertEquals(
             altText.length > 0,
             true,

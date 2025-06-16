@@ -116,7 +116,7 @@ Deno.test("Footer - Legal pages are accessible", async () => {
       // Test že stránka má proper title
       const titleMatch = html.match(/<title[^>]*>([^<]+)<\/title>/i);
       if (titleMatch) {
-        const title = titleMatch[1].trim();
+        const title = titleMatch[1]?.trim() || "";
         assertEquals(
           title.includes("Artekoučka"),
           true,
