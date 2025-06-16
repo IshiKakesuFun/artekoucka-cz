@@ -8,8 +8,8 @@ export default function GDPR() {
             Kdo je správce
             <ol class="list-1">
               <li>
-                Jsem Mgr. Marta Sojková, IČO: 02146401, se sídlem Vochov 3,
-                Nýřany, 33023, a jsem provozovatelem webové stránky{" "}
+                Jsem Mgr. Marta Sojková, MBA, ACC, IČO: 02146401, se sídlem{" "}
+                Vochov 3, Nýřany, 33023, a jsem provozovatelem webové stránky{" "}
                 <a class="link" href="/">
                   www.artekoucka.cz
                 </a>{" "}

@@ -9,7 +9,7 @@ export default function AboutMeCard() {
             aria-label="Artekoučka Marta Sojková sedící venku s paletou v klíně"
           ></div>
           <div class="about-me-text-box">
-            <h2 class="heading-3">Mgr. Marta Sojková, MBA</h2>
+            <h2 class="heading-3">Mgr. Marta Sojková, MBA, ACC</h2>
             <p class="about-me-text">
               Jsem certifikovaná koučka pro individuální i týmový rozvoj,
               arteterapeutka a zkušená lektorka výtvarných kurzů. Specializuji

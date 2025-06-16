@@ -4,7 +4,7 @@ export default function Address() {
       <p class="footer-heading">Kontakt</p>
       <address class="contacts">
         <p class="address">
-          Mgr. Marta Sojková, MBA
+          Mgr. Marta Sojková, MBA, ACC
           <br />
           Vochov&nbsp;3, 330&nbsp;23
         </p>
@@ -13,7 +13,7 @@ export default function Address() {
             +420&nbsp;602&nbsp;181&nbsp;097
           </a>
           <br />
-          <a class="footer-link" href="mailto:marta@artekoucka.com">
+          <a class="footer-link" href="mailto:marta@artekoucka.cz">
             marta@artekoucka.cz
           </a>
         </p>
