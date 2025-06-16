@@ -3,12 +3,12 @@
  * Footer links tests - business compliance a navigation integrity
  */
 import { assertEquals, assertExists } from "../setup.ts";
-import { defaulFooterNavProps } from "../../components/footer/footer-nav.tsx";
+import { defaultFooterNavProps } from "_/footer/footer-nav.tsx";
 
 Deno.test("Footer - Navigation structure is complete", () => {
   console.log("🦶 Testing footer navigation structure...");
 
-  const footerMenu = defaulFooterNavProps.menu;
+  const footerMenu = defaultFooterNavProps.menu;
   assertExists(footerMenu, "Footer menu must exist");
   assertEquals(footerMenu!.length > 0, true, "Footer menu must have sections");
 
@@ -18,7 +18,7 @@ Deno.test("Footer - Navigation structure is complete", () => {
 Deno.test("Footer - All required business sections exist", () => {
   console.log("📋 Testing required footer sections...");
 
-  const footerMenu = defaulFooterNavProps.menu;
+  const footerMenu = defaultFooterNavProps.menu;
   assertExists(footerMenu, "Footer menu must exist");
 
   const requiredSections = ["Artekoučka", "Služby", "O mně"];
@@ -43,7 +43,7 @@ Deno.test("Footer - All required business sections exist", () => {
 Deno.test("Footer - Each section has valid links", () => {
   console.log("🔍 Testing footer link validity...");
 
-  const footerMenu = defaulFooterNavProps.menu;
+  const footerMenu = defaultFooterNavProps.menu;
   assertExists(footerMenu, "Footer menu must exist");
 
   footerMenu!.forEach((section, sectionIndex) => {
@@ -295,7 +295,7 @@ Deno.test("Footer - Copyright and design credits", async () => {
 Deno.test("Footer - All footer links lead to valid pages", async () => {
   console.log("🔗 Testing footer links functionality...");
 
-  const footerMenu = defaulFooterNavProps.menu;
+  const footerMenu = defaultFooterNavProps.menu;
   if (!footerMenu) {
     console.log("⚠️ No footer menu found");
     return;

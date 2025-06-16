@@ -1,5 +1,5 @@
 import Footer from "_/footer/footer.tsx";
-import { defaulFooterNavProps } from "_/footer/footer-nav.tsx";
+import { defaultFooterNavProps } from "_/footer/footer-nav.tsx";
 import Header, { HeaderProps } from "_/header/header.tsx";
 import { MenuLinkType } from "_/header/navigation.tsx";
 import TermsAndConditions from "_/terms/terms-and-conditions.tsx";
@@ -27,7 +27,7 @@ export default function Terms(_props: PageProps<null>) {
       <main>
         <TermsAndConditions />
       </main>
-      <Footer {...defaulFooterNavProps} />
+      <Footer {...defaultFooterNavProps} />
     </>
   );
 }
